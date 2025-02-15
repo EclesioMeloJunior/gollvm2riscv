@@ -1,0 +1,40 @@
+WORK=/tmp/go-build112930966
+mkdir -p $WORK/b001/
+cat >$WORK/b001/_gomod_.go << 'EOF' # internal
+package main
+import _ "unsafe"
+//go:linkname __set_debug_modinfo__ runtime.setmodinfo
+func __set_debug_modinfo__(string)
+func init() { __set_debug_modinfo__("0w\xaf\f\x92t\b\x02A\xe1\xc1\a\xe6\xd6\x18\xe6path\tcommand-line-arguments\nbuild\t-compiler=gccgo\nbuild\t-gccgoflags=-static-libgo\nbuild\tCGO_ENABLED=1\nbuild\tCGO_CFLAGS=\nbuild\tCGO_CPPFLAGS=\nbuild\tCGO_CXXFLAGS=\nbuild\tCGO_LDFLAGS=\nbuild\tGOARCH=amd64\nbuild\tGOEXPERIMENT=fieldtrack\nbuild\tGOOS=linux\nbuild\tGOAMD64=v1\n\xf92C1\x86\x18 r\x00\x82B\x10A\x16\xd8\xf2") }
+EOF
+cd $WORK
+/gollvm/install/bin/llvm-goc -fgo-importcfg=/dev/null -c -x c - -o /dev/null || true
+cat >$WORK/b001/importcfg << 'EOF' # internal
+# import config
+EOF
+/gollvm/install/bin/llvm-goc -ffile-prefix-map=a=b -c -x c - -o /dev/null || true
+cd /workspace
+/gollvm/install/bin/llvm-goc -c -O2 -g -m64 -fdebug-prefix-map=$WORK=/tmp/go-build -gno-record-gcc-switches -o $WORK/b001/_go_.o -fgo-importcfg=$WORK/b001/importcfg -static-libgo ./example.go $WORK/b001/_gomod_.go
+echo '	.section .go.buildid,"e"' >> $WORK/b001/_buildid.s
+echo '	.byte 0x52,0x55,0x48,0x66,0x36,0x47,0x6f,0x78' >> $WORK/b001/_buildid.s
+echo '	.byte 0x55,0x53,0x54,0x6b,0x31,0x56,0x48,0x39' >> $WORK/b001/_buildid.s
+echo '	.byte 0x68,0x4e,0x30,0x52,0x2f,0x52,0x55,0x48' >> $WORK/b001/_buildid.s
+echo '	.byte 0x66,0x36,0x47,0x6f,0x78,0x55,0x53,0x54' >> $WORK/b001/_buildid.s
+echo '	.byte 0x6b,0x31,0x56,0x48,0x39,0x68,0x4e,0x30' >> $WORK/b001/_buildid.s
+echo '	.byte 0x52' >> $WORK/b001/_buildid.s
+echo '	.section .note.GNU-stack,"",@progbits' >> $WORK/b001/_buildid.s
+echo '	.section .note.GNU-split-stack,"",@progbits' >> $WORK/b001/_buildid.s
+echo '' >> $WORK/b001/_buildid.s
+/gollvm/install/bin/llvm-goc -xassembler-with-cpp -I $WORK/b001/ -c -o $WORK/b001/_buildid.o -D GOOS_linux -D GOARCH_amd64 -m64 $WORK/b001/_buildid.s
+ar rcD $WORK/b001/_pkg_.a $WORK/b001/_go_.o $WORK/b001/_buildid.o
+/gollvm/install/tools/buildid -w $WORK/b001/_pkg_.a # internal
+cp $WORK/b001/_pkg_.a /root/.cache/go-build/b6/b6f3203ca7c028ed0462e0a56bfad094231aa5f3e8a6508b48d408a5db1046ad-d # internal
+cat >$WORK/b001/importcfg.link << 'EOF' # internal
+packagefile command-line-arguments=$WORK/b001/_pkg_.a
+modinfo "0w\xaf\f\x92t\b\x02A\xe1\xc1\a\xe6\xd6\x18\xe6path\tcommand-line-arguments\nbuild\t-compiler=gccgo\nbuild\t-gccgoflags=-static-libgo\nbuild\tCGO_ENABLED=1\nbuild\tCGO_CFLAGS=\nbuild\tCGO_CPPFLAGS=\nbuild\tCGO_CXXFLAGS=\nbuild\tCGO_LDFLAGS=\nbuild\tGOARCH=amd64\nbuild\tGOEXPERIMENT=fieldtrack\nbuild\tGOOS=linux\nbuild\tGOAMD64=v1\n\xf92C1\x86\x18 r\x00\x82B\x10A\x16\xd8\xf2"
+EOF
+mkdir -p $WORK/b001/exe/
+cd .
+/gollvm/install/bin/llvm-goc -o $WORK/b001/exe/a.out "-Wl,-(" -m64 -Wl,--whole-archive $WORK/b001/_pkg_.a -Wl,--no-whole-archive "-Wl,-)" -Wl,--build-id=0x6a70723830555146776575332d437542446e67302f5255486636476f785553546b31564839684e30522f4b7255515a67366950594f394264775a775359712f6a70723830555146776575332d437542446e6730 -static-libgo
+/gollvm/install/tools/buildid -w $WORK/b001/exe/a.out # internal
+cp $WORK/b001/exe/a.out example

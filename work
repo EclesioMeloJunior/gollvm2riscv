@@ -1,0 +1,32 @@
+build only accepts a single positional argument: package name, but multiple were specified
+Build compiles the packages named by the import paths, along with their
+dependencies, but it does not install the results. The output binary is
+specified using the -o parameter. The generated file type depends on the
+extension:
+
+	.o:
+			Create a relocatable object file. You can use this option if you
+			don't want to use the TinyGo build system or want to do other custom
+			things.
+
+	.ll:
+			Create textual LLVM IR, after optimization. This is mainly useful
+			for debugging.
+
+	.bc:
+			Create LLVM bitcode, after optimization. This may be useful for
+			debugging or for linking into other programs using LTO.
+
+	.hex:
+			Create an Intel HEX file to flash it to a microcontroller.
+
+	.bin:
+			Similar, but create a binary file.
+
+	.wasm:
+			Compile and link a WebAssembly file.
+
+(all other) Compile and link the program into a regular executable. For
+microcontrollers, it is common to use the .elf file extension to indicate a
+linked ELF file is generated. For Linux, it is common to build binaries with no
+extension at all.

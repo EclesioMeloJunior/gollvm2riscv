@@ -1,0 +1,1080 @@
+
+./c2pvm.elf:     file format elf64-littleriscv
+
+Contents of the .debug_abbrev section:
+
+  Number TAG (0)
+   1      DW_TAG_compile_unit    [has children]
+    DW_AT_producer     DW_FORM_strx1
+    DW_AT_language     DW_FORM_data2
+    DW_AT_name         DW_FORM_strx1
+    DW_AT_str_offsets_base DW_FORM_sec_offset
+    DW_AT_stmt_list    DW_FORM_sec_offset
+    DW_AT_comp_dir     DW_FORM_strx1
+    DW_AT_low_pc       DW_FORM_addrx
+    DW_AT_high_pc      DW_FORM_data4
+    DW_AT_addr_base    DW_FORM_sec_offset
+    DW_AT value: 0     DW_FORM value: 0
+   2      DW_TAG_variable    [no children]
+    DW_AT_type         DW_FORM_ref4
+    DW_AT_decl_file    DW_FORM_data1
+    DW_AT_decl_line    DW_FORM_data1
+    DW_AT_location     DW_FORM_exprloc
+    DW_AT value: 0     DW_FORM value: 0
+   3      DW_TAG_array_type    [has children]
+    DW_AT_type         DW_FORM_ref4
+    DW_AT value: 0     DW_FORM value: 0
+   4      DW_TAG_subrange_type    [no children]
+    DW_AT_type         DW_FORM_ref4
+    DW_AT_count        DW_FORM_data1
+    DW_AT value: 0     DW_FORM value: 0
+   5      DW_TAG_base_type    [no children]
+    DW_AT_name         DW_FORM_strx1
+    DW_AT_encoding     DW_FORM_data1
+    DW_AT_byte_size    DW_FORM_data1
+    DW_AT value: 0     DW_FORM value: 0
+   6      DW_TAG_base_type    [no children]
+    DW_AT_name         DW_FORM_strx1
+    DW_AT_byte_size    DW_FORM_data1
+    DW_AT_encoding     DW_FORM_data1
+    DW_AT value: 0     DW_FORM value: 0
+   7      DW_TAG_variable    [no children]
+    DW_AT_name         DW_FORM_strx1
+    DW_AT_type         DW_FORM_ref4
+    DW_AT_decl_file    DW_FORM_data1
+    DW_AT_decl_line    DW_FORM_data1
+    DW_AT_location     DW_FORM_exprloc
+    DW_AT value: 0     DW_FORM value: 0
+   8      DW_TAG_structure_type    [has children]
+    DW_AT_name         DW_FORM_strx1
+    DW_AT_byte_size    DW_FORM_data1
+    DW_AT_decl_file    DW_FORM_data1
+    DW_AT_decl_line    DW_FORM_data1
+    DW_AT value: 0     DW_FORM value: 0
+   9      DW_TAG_member    [no children]
+    DW_AT_name         DW_FORM_strx1
+    DW_AT_type         DW_FORM_ref4
+    DW_AT_decl_file    DW_FORM_data1
+    DW_AT_decl_line    DW_FORM_data1
+    DW_AT_data_member_location DW_FORM_data1
+    DW_AT value: 0     DW_FORM value: 0
+   10      DW_TAG_pointer_type    [no children]
+    DW_AT_type         DW_FORM_ref4
+    DW_AT value: 0     DW_FORM value: 0
+   11      DW_TAG_const_type    [no children]
+    DW_AT_type         DW_FORM_ref4
+    DW_AT value: 0     DW_FORM value: 0
+   12      DW_TAG_subprogram    [has children]
+    DW_AT_low_pc       DW_FORM_addrx
+    DW_AT_high_pc      DW_FORM_data4
+    DW_AT_frame_base   DW_FORM_exprloc
+    DW_AT_call_all_calls DW_FORM_flag_present
+    DW_AT_name         DW_FORM_strx1
+    DW_AT_decl_file    DW_FORM_data1
+    DW_AT_decl_line    DW_FORM_data1
+    DW_AT_prototyped   DW_FORM_flag_present
+    DW_AT_external     DW_FORM_flag_present
+    DW_AT value: 0     DW_FORM value: 0
+   13      DW_TAG_formal_parameter    [no children]
+    DW_AT_name         DW_FORM_strx1
+    DW_AT_decl_file    DW_FORM_data1
+    DW_AT_decl_line    DW_FORM_data1
+    DW_AT_type         DW_FORM_ref4
+    DW_AT value: 0     DW_FORM value: 0
+   14      DW_TAG_variable    [no children]
+    DW_AT_name         DW_FORM_strx1
+    DW_AT_decl_file    DW_FORM_data1
+    DW_AT_decl_line    DW_FORM_data1
+    DW_AT_type         DW_FORM_ref4
+    DW_AT value: 0     DW_FORM value: 0
+   15      DW_TAG_subprogram    [no children]
+    DW_AT_low_pc       DW_FORM_addrx
+    DW_AT_high_pc      DW_FORM_data4
+    DW_AT_frame_base   DW_FORM_exprloc
+    DW_AT_call_all_calls DW_FORM_flag_present
+    DW_AT_name         DW_FORM_strx1
+    DW_AT_decl_file    DW_FORM_data1
+    DW_AT_decl_line    DW_FORM_data1
+    DW_AT value: 0     DW_FORM value: 0
+   16      DW_TAG_typedef    [no children]
+    DW_AT_type         DW_FORM_ref4
+    DW_AT_name         DW_FORM_strx1
+    DW_AT_decl_file    DW_FORM_data1
+    DW_AT_decl_line    DW_FORM_data1
+    DW_AT value: 0     DW_FORM value: 0
+
+Contents of the .debug_info section:
+
+  Compilation Unit @ offset 0:
+   Length:        0xd2 (32-bit)
+   Version:       5
+   Unit Type:     DW_UT_compile (1)
+   Abbrev Offset: 0
+   Pointer Size:  8
+ <0><c>: Abbrev Number: 1 (DW_TAG_compile_unit)
+    <d>   DW_AT_producer    : (indexed string: 0): clang version 21.0.0git (https://github.com/llvm/llvm-project 93a1184409feb6b0ebb1001e1bebcecf760a6673)
+    <e>   DW_AT_language    : 29	(C11)
+    <10>   DW_AT_name        : (indexed string: 0x1): c-example/example.c
+    <11>   DW_AT_str_offsets_base: 0x8
+    <15>   DW_AT_stmt_list   : 0
+    <19>   DW_AT_comp_dir    : (indexed string: 0x2): /wrk
+    <1a>   DW_AT_low_pc      : (index: 0x2): 0x111de
+    <1b>   DW_AT_high_pc     : 0x2
+    <1f>   DW_AT_addr_base   : 0x8
+ <1><23>: Abbrev Number: 2 (DW_TAG_variable)
+    <24>   DW_AT_type        : <0x2d>
+    <28>   DW_AT_decl_file   : 1
+    <29>   DW_AT_decl_line   : 11
+    <2a>   DW_AT_location    :	(DW_OP_addrx <0>)
+ <1><2d>: Abbrev Number: 3 (DW_TAG_array_type)
+    <2e>   DW_AT_type        : <0x39>
+ <2><32>: Abbrev Number: 4 (DW_TAG_subrange_type)
+    <33>   DW_AT_type        : <0x3d>
+    <37>   DW_AT_count       : 4
+ <2><38>: Abbrev Number: 0
+ <1><39>: Abbrev Number: 5 (DW_TAG_base_type)
+    <3a>   DW_AT_name        : (indexed string: 0x3): char
+    <3b>   DW_AT_encoding    : 8	(unsigned char)
+    <3c>   DW_AT_byte_size   : 1
+ <1><3d>: Abbrev Number: 6 (DW_TAG_base_type)
+    <3e>   DW_AT_name        : (indexed string: 0x4): __ARRAY_SIZE_TYPE__
+    <3f>   DW_AT_byte_size   : 8
+    <40>   DW_AT_encoding    : 7	(unsigned)
+ <1><41>: Abbrev Number: 7 (DW_TAG_variable)
+    <42>   DW_AT_name        : (indexed string: 0x5): sum__EXPORT_METADATA
+    <43>   DW_AT_type        : <0x4c>
+    <47>   DW_AT_decl_file   : 1
+    <48>   DW_AT_decl_line   : 11
+    <49>   DW_AT_location    :	(DW_OP_addrx <0x1>)
+ <1><4c>: Abbrev Number: 8 (DW_TAG_structure_type)
+    <4d>   DW_AT_name        : (indexed string: 0xe): PolkaVM_Metadata
+    <4e>   DW_AT_byte_size   : 19
+    <4f>   DW_AT_decl_file   : 2
+    <50>   DW_AT_decl_line   : 103
+ <2><51>: Abbrev Number: 9 (DW_TAG_member)
+    <52>   DW_AT_name        : (indexed string: 0x6): version
+    <53>   DW_AT_type        : <0x88>
+    <57>   DW_AT_decl_file   : 2
+    <58>   DW_AT_decl_line   : 104
+    <59>   DW_AT_data_member_location: 0
+ <2><5a>: Abbrev Number: 9 (DW_TAG_member)
+    <5b>   DW_AT_name        : (indexed string: 0x8): flags
+    <5c>   DW_AT_type        : <0x8c>
+    <60>   DW_AT_decl_file   : 2
+    <61>   DW_AT_decl_line   : 105
+    <62>   DW_AT_data_member_location: 1
+ <2><63>: Abbrev Number: 9 (DW_TAG_member)
+    <64>   DW_AT_name        : (indexed string: 0xa): symbol_length
+    <65>   DW_AT_type        : <0x8c>
+    <69>   DW_AT_decl_file   : 2
+    <6a>   DW_AT_decl_line   : 106
+    <6b>   DW_AT_data_member_location: 5
+ <2><6c>: Abbrev Number: 9 (DW_TAG_member)
+    <6d>   DW_AT_name        : (indexed string: 0xb): symbol
+    <6e>   DW_AT_type        : <0x90>
+    <72>   DW_AT_decl_file   : 2
+    <73>   DW_AT_decl_line   : 107
+    <74>   DW_AT_data_member_location: 9
+ <2><75>: Abbrev Number: 9 (DW_TAG_member)
+    <76>   DW_AT_name        : (indexed string: 0xc): input_regs
+    <77>   DW_AT_type        : <0x88>
+    <7b>   DW_AT_decl_file   : 2
+    <7c>   DW_AT_decl_line   : 108
+    <7d>   DW_AT_data_member_location: 17
+ <2><7e>: Abbrev Number: 9 (DW_TAG_member)
+    <7f>   DW_AT_name        : (indexed string: 0xd): output_regs
+    <80>   DW_AT_type        : <0x88>
+    <84>   DW_AT_decl_file   : 2
+    <85>   DW_AT_decl_line   : 109
+    <86>   DW_AT_data_member_location: 18
+ <2><87>: Abbrev Number: 0
+ <1><88>: Abbrev Number: 5 (DW_TAG_base_type)
+    <89>   DW_AT_name        : (indexed string: 0x7): unsigned char
+    <8a>   DW_AT_encoding    : 8	(unsigned char)
+    <8b>   DW_AT_byte_size   : 1
+ <1><8c>: Abbrev Number: 5 (DW_TAG_base_type)
+    <8d>   DW_AT_name        : (indexed string: 0x9): unsigned int
+    <8e>   DW_AT_encoding    : 7	(unsigned)
+    <8f>   DW_AT_byte_size   : 4
+ <1><90>: Abbrev Number: 10 (DW_TAG_pointer_type)
+    <91>   DW_AT_type        : <0x95>
+ <1><95>: Abbrev Number: 11 (DW_TAG_const_type)
+    <96>   DW_AT_type        : <0x39>
+ <1><9a>: Abbrev Number: 12 (DW_TAG_subprogram)
+    <9b>   DW_AT_low_pc      : (index: 0x2): 0x111de
+    <9c>   DW_AT_high_pc     : 0x2
+    <a0>   DW_AT_frame_base  : 1 byte block: 52 	(DW_OP_reg2 (sp))
+    <a2>   DW_AT_call_all_calls: 1
+    <a2>   DW_AT_name        : (indexed string: 0xf): sum
+    <a3>   DW_AT_decl_file   : 1
+    <a4>   DW_AT_decl_line   : 3
+    <a5>   DW_AT_prototyped  : 1
+    <a5>   DW_AT_external    : 1
+ <2><a5>: Abbrev Number: 13 (DW_TAG_formal_parameter)
+    <a6>   DW_AT_name        : (indexed string: 0x11): a
+    <a7>   DW_AT_decl_file   : 1
+    <a8>   DW_AT_decl_line   : 3
+    <a9>   DW_AT_type        : <0xc9>
+ <2><ad>: Abbrev Number: 13 (DW_TAG_formal_parameter)
+    <ae>   DW_AT_name        : (indexed string: 0x14): b
+    <af>   DW_AT_decl_file   : 1
+    <b0>   DW_AT_decl_line   : 3
+    <b1>   DW_AT_type        : <0xc9>
+ <2><b5>: Abbrev Number: 14 (DW_TAG_variable)
+    <b6>   DW_AT_name        : (indexed string: 0x15): c
+    <b7>   DW_AT_decl_file   : 1
+    <b8>   DW_AT_decl_line   : 4
+    <b9>   DW_AT_type        : <0xc9>
+ <2><bd>: Abbrev Number: 0
+ <1><be>: Abbrev Number: 15 (DW_TAG_subprogram)
+    <bf>   DW_AT_low_pc      : (index: 0x3): 0x111e0
+    <c0>   DW_AT_high_pc     : 0
+    <c4>   DW_AT_frame_base  : 1 byte block: 52 	(DW_OP_reg2 (sp))
+    <c6>   DW_AT_call_all_calls: 1
+    <c6>   DW_AT_name        : (indexed string: 0x10): polkavm_export_dummy0
+    <c7>   DW_AT_decl_file   : 1
+    <c8>   DW_AT_decl_line   : 11
+ <1><c9>: Abbrev Number: 16 (DW_TAG_typedef)
+    <ca>   DW_AT_type        : <0xd1>
+    <ce>   DW_AT_name        : (indexed string: 0x13): int32_t
+    <cf>   DW_AT_decl_file   : 3
+    <d0>   DW_AT_decl_line   : 197
+ <1><d1>: Abbrev Number: 5 (DW_TAG_base_type)
+    <d2>   DW_AT_name        : (indexed string: 0x12): int
+    <d3>   DW_AT_encoding    : 5	(signed)
+    <d4>   DW_AT_byte_size   : 4
+ <1><d5>: Abbrev Number: 0
+
+Contents of the .debug_str_offsets section:
+
+    Length: 0x5c
+    Version: 0x5
+       Index   Offset [String]
+           0 00000000  clang version 21.0.0git (https://github.com/llvm/llvm-project 93a1184409feb6b0ebb1001e1bebcecf760a6673)
+           1 00000068  c-example/example.c
+           2 0000013c  /wrk
+           3 000000b1  char
+           4 0000010e  __ARRAY_SIZE_TYPE__
+           5 000000ba  sum__EXPORT_METADATA
+           6 00000090  version
+           7 00000098  unsigned char
+           8 0000012a  flags
+           9 00000101  unsigned int
+          10 00000082  symbol_length
+          11 000000cf  symbol
+          12 000000a6  input_regs
+          13 00000130  output_regs
+          14 000000d6  PolkaVM_Metadata
+          15 000000fd  sum
+          16 000000e7  polkavm_export_dummy0
+          17 0000007c  a
+          18 000000b6  int
+          19 00000122  int32_t
+          20 0000007e  b
+          21 00000080  c
+Contents of the .debug_str section:
+
+  0x00000000 636c616e 67207665 7273696f 6e203231 clang version 21
+  0x00000010 2e302e30 67697420 28687474 70733a2f .0.0git (https:/
+  0x00000020 2f676974 6875622e 636f6d2f 6c6c766d /github.com/llvm
+  0x00000030 2f6c6c76 6d2d7072 6f6a6563 74203933 /llvm-project 93
+  0x00000040 61313138 34343039 66656236 62306562 a1184409feb6b0eb
+  0x00000050 62313030 31653162 65626365 63663736 b1001e1bebcecf76
+  0x00000060 30613636 37332900 632d6578 616d706c 0a6673).c-exampl
+  0x00000070 652f6578 616d706c 652e6300 61006200 e/example.c.a.b.
+  0x00000080 63007379 6d626f6c 5f6c656e 67746800 c.symbol_length.
+  0x00000090 76657273 696f6e00 756e7369 676e6564 version.unsigned
+  0x000000a0 20636861 7200696e 7075745f 72656773  char.input_regs
+  0x000000b0 00636861 7200696e 74007375 6d5f5f45 .char.int.sum__E
+  0x000000c0 58504f52 545f4d45 54414441 54410073 XPORT_METADATA.s
+  0x000000d0 796d626f 6c00506f 6c6b6156 4d5f4d65 ymbol.PolkaVM_Me
+  0x000000e0 74616461 74610070 6f6c6b61 766d5f65 tadata.polkavm_e
+  0x000000f0 78706f72 745f6475 6d6d7930 0073756d xport_dummy0.sum
+  0x00000100 00756e73 69676e65 6420696e 74005f5f .unsigned int.__
+  0x00000110 41525241 595f5349 5a455f54 5950455f ARRAY_SIZE_TYPE_
+  0x00000120 5f00696e 7433325f 7400666c 61677300 _.int32_t.flags.
+  0x00000130 6f757470 75745f72 65677300 2f77726b output_regs./wrk
+  0x00000140 00                                  .
+
+Contents of the .debug_addr section:
+
+  For compilation unit at offset 0:
+	Index	Address
+	0:	00000000000101d9
+	1:	00000000000121e0
+	2:	00000000000111de
+	3:	00000000000111e0
+
+Contents of the .debug_frame section:
+
+
+00000000 0000000000000014 ffffffff CIE
+  Version:               4
+  Augmentation:          ""
+  Pointer Size:          8
+  Segment Size:          0
+  Code alignment factor: 1
+  Data alignment factor: -8
+  Return address column: 1
+
+  DW_CFA_def_cfa: r2 (sp) ofs 0
+  DW_CFA_nop
+  DW_CFA_nop
+  DW_CFA_nop
+  DW_CFA_nop
+  DW_CFA_nop
+  DW_CFA_nop
+
+00000018 0000000000000014 00000000 FDE cie=00000000 pc=00000000000111de..00000000000111e0
+
+00000030 0000000000000014 00000000 FDE cie=00000000 pc=00000000000111e0..00000000000111e0
+
+Raw dump of debug contents of section .debug_line:
+
+  Offset:                      0
+  Length:                      155
+  DWARF Version:               5
+  Address size (bytes):        8
+  Segment selector (bytes):    0
+  Prologue Length:             126
+  Minimum Instruction Length:  1
+  Maximum Ops per Instruction: 1
+  Initial value of 'is_stmt':  1
+  Line Base:                   -5
+  Line Range:                  14
+  Opcode Base:                 13
+
+ Opcodes:
+  Opcode 1 has 0 args
+  Opcode 2 has 1 arg
+  Opcode 3 has 1 arg
+  Opcode 4 has 1 arg
+  Opcode 5 has 1 arg
+  Opcode 6 has 0 args
+  Opcode 7 has 0 args
+  Opcode 8 has 0 args
+  Opcode 9 has 1 arg
+  Opcode 10 has 0 args
+  Opcode 11 has 0 args
+  Opcode 12 has 1 arg
+
+ The Directory Table (offset 0x22, lines 3, columns 1):
+  Entry	Name
+  0	(indirect line string, offset: 0x62): /wrk
+  1	(indirect line string, offset: 0x56): ./c-example
+  2	(indirect line string, offset: 0x37): /opt/llvm/lib/clang/21/include
+
+ The File Name Table (offset 0x36, lines 4, columns 3):
+  Entry	Dir	MD5				Name
+  0	0 0x5535a43a342eebc0dc328402e95b6fc	(indirect line string, offset: 0): c-example/example.c
+  1	1 0x5535a43a342eebc0dc328402e95b6fc	(indirect line string, offset: 0x24): example.c
+  2	1 0xa9e59c07b50aa201328de3567b7e6f61	(indirect line string, offset: 0x14): polkavm_guest.h
+  3	2 0x6cb23f8124cff95be8b770a837470bcd	(indirect line string, offset: 0x2e): stdint.h
+
+ Line Number Statements:
+  [0x0000008a]  Set column to 1
+  [0x0000008c]  Set prologue_end to true
+  [0x0000008d]  Extended opcode 2: set Address to 0x111de
+  [0x00000098]  Special opcode 9: advance Address by 0 to 0x111de and Line by 4 to 5
+  [0x00000099]  Advance PC by fixed size amount 2 to 0x111e0
+  [0x0000009c]  Extended opcode 1: End of Sequence
+
+
+Contents of the .debug_line_str section:
+
+  0x00000000 632d6578 616d706c 652f6578 616d706c c-example/exampl
+  0x00000010 652e6300 706f6c6b 61766d5f 67756573 e.c.polkavm_gues
+  0x00000020 742e6800 6578616d 706c652e 63007374 t.h.example.c.st
+  0x00000030 64696e74 2e68002f 6f70742f 6c6c766d dint.h./opt/llvm
+  0x00000040 2f6c6962 2f636c61 6e672f32 312f696e /lib/clang/21/in
+  0x00000050 636c7564 65002e2f 632d6578 616d706c clude../c-exampl
+  0x00000060 65002f77 726b00                     e./wrk.
+
+
+Disassembly of section .polkavm_exports:
+
+00000000000101c8 <.polkavm_exports>:
+   101c8:	e001                	bnez	s0,101c8 <.polkavm_exports>
+   101ca:	0121                	addi	sp,sp,8
+   101cc:	0000                	unimp
+   101ce:	0000                	unimp
+   101d0:	de00                	sw	s0,56(a2)
+   101d2:	0111                	addi	sp,sp,4
+   101d4:	0000                	unimp
+   101d6:	0000                	unimp
+	...
+
+Disassembly of section .rodata:
+
+00000000000101d9 <.L.str>:
+   101d9:	006d7573          	.insn	4, 0x006d7573
+
+Disassembly of section .text:
+
+00000000000111de <sum>:
+   111de:	8082                	ret
+
+Disassembly of section .polkavm_metadata:
+
+00000000000121e0 <sum__EXPORT_METADATA>:
+   121e0:	0001                	nop
+   121e2:	0000                	unimp
+   121e4:	0300                	addi	s0,sp,384
+   121e6:	0000                	unimp
+   121e8:	d900                	sw	s0,48(a0)
+   121ea:	0101                	addi	sp,sp,0
+   121ec:	0000                	unimp
+   121ee:	0000                	unimp
+   121f0:	0200                	addi	s0,sp,256
+	...
+
+Disassembly of section .debug_abbrev:
+
+0000000000000000 <.debug_abbrev>:
+   0:	1101                	addi	sp,sp,-32
+   2:	2501                	sext.w	a0,a0
+   4:	1325                	addi	t1,t1,-23
+   6:	0305                	addi	t1,t1,1
+   8:	7225                	lui	tp,0xfffe9
+   a:	1b171017          	auipc	zero,0x1b171
+   e:	1125                	addi	sp,sp,-23
+  10:	7306121b          	.insn	4, 0x7306121b
+  14:	02000017          	auipc	zero,0x2000
+  18:	0034                	addi	a3,sp,8
+  1a:	1349                	addi	t1,t1,-14
+  1c:	0b3a                	slli	s6,s6,0xe
+  1e:	18020b3b          	.insn	4, 0x18020b3b
+  22:	0000                	unimp
+  24:	49010103          	lb	sp,1168(sp)
+  28:	04000013          	li	zero,64
+  2c:	0021                	c.nop	8
+  2e:	1349                	addi	t1,t1,-14
+  30:	00000b37          	lui	s6,0x0
+  34:	2405                	addiw	s0,s0,1
+  36:	0300                	addi	s0,sp,384
+  38:	3e25                	addiw	t3,t3,-23
+  3a:	000b0b0b          	.insn	4, 0x000b0b0b
+  3e:	0600                	addi	s0,sp,768
+  40:	0024                	addi	s1,sp,8
+  42:	0b0b2503          	lw	a0,176(s6) # b0 <.debug_abbrev+0xb0>
+  46:	0b3e                	slli	s6,s6,0xf
+  48:	0000                	unimp
+  4a:	03003407          	.insn	4, 0x03003407
+  4e:	4925                	li	s2,9
+  50:	3b0b3a13          	sltiu	s4,s6,944
+  54:	0018020b          	.insn	4, 0x0018020b
+  58:	0800                	addi	s0,sp,16
+  5a:	25030113          	addi	sp,t1,592
+  5e:	0b3a0b0b          	.insn	4, 0x0b3a0b0b
+  62:	00000b3b          	addw	s6,zero,zero
+  66:	0d09                	addi	s10,s10,2
+  68:	0300                	addi	s0,sp,384
+  6a:	4925                	li	s2,9
+  6c:	3b0b3a13          	sltiu	s4,s6,944
+  70:	000b380b          	.insn	4, 0x000b380b
+  74:	0a00                	addi	s0,sp,272
+  76:	1349000f          	.insn	4, 0x1349000f
+  7a:	0000                	unimp
+  7c:	4900260b          	.insn	4, 0x4900260b
+  80:	0c000013          	li	zero,192
+  84:	012e                	slli	sp,sp,0xb
+  86:	1b11                	addi	s6,s6,-28
+  88:	0612                	slli	a2,a2,0x4
+  8a:	1840                	addi	s0,sp,52
+  8c:	197a                	slli	s2,s2,0x3e
+  8e:	0b3a2503          	lw	a0,179(s4)
+  92:	19270b3b          	.insn	4, 0x19270b3b
+  96:	0000193f 0300050d 	.insn	8, 0x0300050d0000193f
+  9e:	3a25                	addiw	s4,s4,-23
+  a0:	490b3b0b          	.insn	4, 0x490b3b0b
+  a4:	0e000013          	li	zero,224
+  a8:	0034                	addi	a3,sp,8
+  aa:	0b3a2503          	lw	a0,179(s4)
+  ae:	13490b3b          	.insn	4, 0x13490b3b
+  b2:	0000                	unimp
+  b4:	11002e0f          	.insn	4, 0x11002e0f
+  b8:	4006121b          	.insn	4, 0x4006121b
+  bc:	7a18                	ld	a4,48(a2)
+  be:	0319                	addi	t1,t1,6
+  c0:	3a25                	addiw	s4,s4,-23
+  c2:	000b3b0b          	.insn	4, 0x000b3b0b
+  c6:	1000                	addi	s0,sp,32
+  c8:	0016                	c.slli	zero,0x5
+  ca:	1349                	addi	t1,t1,-14
+  cc:	0b3a2503          	lw	a0,179(s4)
+  d0:	00000b3b          	addw	s6,zero,zero
+	...
+
+Disassembly of section .debug_info:
+
+0000000000000000 <.debug_info>:
+   0:	00d2                	slli	ra,ra,0x14
+   2:	0000                	unimp
+   4:	0005                	c.nop	1
+   6:	0801                	addi	a6,a6,0
+   8:	0000                	unimp
+   a:	0000                	unimp
+   c:	0001                	nop
+   e:	001d                	c.nop	7
+  10:	0801                	addi	a6,a6,0
+  12:	0000                	unimp
+  14:	0000                	unimp
+  16:	0000                	unimp
+  18:	0200                	addi	s0,sp,256
+  1a:	0202                	c.slli64	tp
+  1c:	0000                	unimp
+  1e:	0800                	addi	s0,sp,16
+  20:	0000                	unimp
+  22:	0200                	addi	s0,sp,256
+  24:	002d                	c.nop	11
+  26:	0000                	unimp
+  28:	0b01                	addi	s6,s6,0
+  2a:	a102                	.insn	2, 0xa102
+  2c:	0300                	addi	s0,sp,384
+  2e:	0039                	c.nop	14
+  30:	0000                	unimp
+  32:	3d04                	.insn	2, 0x3d04
+  34:	0000                	unimp
+  36:	0400                	addi	s0,sp,512
+  38:	0500                	addi	s0,sp,640
+  3a:	06010803          	lb	a6,96(sp)
+  3e:	0804                	addi	s1,sp,16
+  40:	4c050707          	.insn	4, 0x4c050707
+  44:	0000                	unimp
+  46:	0100                	addi	s0,sp,128
+  48:	01a1020b          	.insn	4, 0x01a1020b
+  4c:	0e08                	addi	a0,sp,784
+  4e:	09670213          	addi	tp,a4,150
+  52:	8806                	mv	a6,ra
+  54:	0000                	unimp
+  56:	0200                	addi	s0,sp,256
+  58:	0068                	addi	a0,sp,12
+  5a:	0809                	addi	a6,a6,2
+  5c:	008c                	addi	a1,sp,64
+  5e:	0000                	unimp
+  60:	6902                	ld	s2,0(sp)
+  62:	0901                	addi	s2,s2,0
+  64:	8c0a                	mv	s8,sp
+  66:	0000                	unimp
+  68:	0200                	addi	s0,sp,256
+  6a:	056a                	slli	a0,a0,0x1a
+  6c:	0b09                	addi	s6,s6,2
+  6e:	0090                	addi	a2,sp,64
+  70:	0000                	unimp
+  72:	6b02                	ld	s6,0(sp)
+  74:	0909                	addi	s2,s2,2
+  76:	880c                	.insn	2, 0x880c
+  78:	0000                	unimp
+  7a:	0200                	addi	s0,sp,256
+  7c:	116c                	addi	a1,sp,172
+  7e:	0d09                	addi	s10,s10,2
+  80:	0088                	addi	a0,sp,64
+  82:	0000                	unimp
+  84:	6d02                	ld	s10,0(sp)
+  86:	0012                	c.slli	zero,0x4
+  88:	0705                	addi	a4,a4,1
+  8a:	0108                	addi	a0,sp,128
+  8c:	0905                	addi	s2,s2,1
+  8e:	950a0407          	.insn	4, 0x950a0407
+  92:	0000                	unimp
+  94:	0b00                	addi	s0,sp,400
+  96:	0039                	c.nop	14
+  98:	0000                	unimp
+  9a:	020c                	addi	a1,sp,256
+  9c:	0002                	c.slli64	zero
+  9e:	0000                	unimp
+  a0:	5201                	li	tp,-32
+  a2:	0d03010f          	.insn	4, 0x0d03010f
+  a6:	0111                	addi	sp,sp,4
+  a8:	0000c903          	lbu	s2,0(ra)
+  ac:	0d00                	addi	s0,sp,656
+  ae:	0114                	addi	a3,sp,128
+  b0:	0000c903          	lbu	s2,0(ra)
+  b4:	0e00                	addi	s0,sp,784
+  b6:	0115                	addi	sp,sp,5
+  b8:	c904                	sw	s1,16(a0)
+  ba:	0000                	unimp
+  bc:	0000                	unimp
+  be:	0000030f          	.insn	4, 0x030f
+  c2:	0000                	unimp
+  c4:	5201                	li	tp,-32
+  c6:	0110                	addi	a2,sp,128
+  c8:	00d1100b          	.insn	4, 0x00d1100b
+  cc:	0000                	unimp
+  ce:	05c50313          	addi	t1,a0,92
+  d2:	0512                	slli	a0,a0,0x4
+  d4:	0004                	.insn	2, 0x0004
+
+Disassembly of section .debug_str_offsets:
+
+0000000000000000 <.debug_str_offsets>:
+   0:	005c                	addi	a5,sp,4
+   2:	0000                	unimp
+   4:	0005                	c.nop	1
+   6:	0000                	unimp
+   8:	0000                	unimp
+   a:	0000                	unimp
+   c:	0068                	addi	a0,sp,12
+   e:	0000                	unimp
+  10:	013c                	addi	a5,sp,136
+  12:	0000                	unimp
+  14:	00b1                	addi	ra,ra,12
+  16:	0000                	unimp
+  18:	010e                	slli	sp,sp,0x3
+  1a:	0000                	unimp
+  1c:	00ba                	slli	ra,ra,0xe
+  1e:	0000                	unimp
+  20:	0090                	addi	a2,sp,64
+  22:	0000                	unimp
+  24:	0098                	addi	a4,sp,64
+  26:	0000                	unimp
+  28:	012a                	slli	sp,sp,0xa
+  2a:	0000                	unimp
+  2c:	0101                	addi	sp,sp,0
+  2e:	0000                	unimp
+  30:	0082                	c.slli64	ra
+  32:	0000                	unimp
+  34:	000000cf          	.insn	4, 0x00cf
+  38:	00a6                	slli	ra,ra,0x9
+  3a:	0000                	unimp
+  3c:	0130                	addi	a2,sp,136
+  3e:	0000                	unimp
+  40:	00d6                	slli	ra,ra,0x15
+  42:	0000                	unimp
+  44:	00fd                	addi	ra,ra,31
+  46:	0000                	unimp
+  48:	000000e7          	jalr	zero # 0 <.debug_str_offsets>
+  4c:	007c                	addi	a5,sp,12
+  4e:	0000                	unimp
+  50:	00b6                	slli	ra,ra,0xd
+  52:	0000                	unimp
+  54:	0122                	slli	sp,sp,0x8
+  56:	0000                	unimp
+  58:	007e                	c.slli	zero,0x1f
+  5a:	0000                	unimp
+  5c:	0080                	addi	s0,sp,64
+	...
+
+Disassembly of section .debug_str:
+
+0000000000000000 <.debug_str>:
+   0:	6e616c63          	bltu	sp,t1,6f8 <.Lline_table_start0+0x6f8>
+   4:	65762067          	.insn	4, 0x65762067
+   8:	7372                	ld	t1,312(sp)
+   a:	6f69                	lui	t5,0x1a
+   c:	206e                	.insn	2, 0x206e
+   e:	3132                	.insn	2, 0x3132
+  10:	302e                	.insn	2, 0x302e
+  12:	302e                	.insn	2, 0x302e
+  14:	20746967          	.insn	4, 0x20746967
+  18:	6828                	ld	a0,80(s0)
+  1a:	7474                	ld	a3,232(s0)
+  1c:	7370                	ld	a2,224(a4)
+  1e:	2f3a                	.insn	2, 0x2f3a
+  20:	7469672f          	.insn	4, 0x7469672f
+  24:	7568                	ld	a0,232(a0)
+  26:	2e62                	.insn	2, 0x2e62
+  28:	2f6d6f63          	bltu	s10,s6,326 <.Lline_table_start0+0x326>
+  2c:	6c6c                	ld	a1,216(s0)
+  2e:	6d76                	ld	s10,344(sp)
+  30:	766c6c2f          	.insn	4, 0x766c6c2f
+  34:	2d6d                	addiw	s10,s10,27
+  36:	7270                	ld	a2,224(a2)
+  38:	63656a6f          	jal	s4,5666e <sum__EXPORT_METADATA+0x4448e>
+  3c:	2074                	.insn	2, 0x2074
+  3e:	3339                	addiw	t1,t1,-18
+  40:	3161                	addiw	sp,sp,-8
+  42:	3831                	addiw	a6,a6,-20
+  44:	3434                	.insn	2, 0x3434
+  46:	3930                	.insn	2, 0x3930
+  48:	6566                	ld	a0,88(sp)
+  4a:	3662                	.insn	2, 0x3662
+  4c:	3062                	.insn	2, 0x3062
+  4e:	6265                	lui	tp,0x19
+  50:	3162                	.insn	2, 0x3162
+  52:	3030                	.insn	2, 0x3030
+  54:	6531                	lui	a0,0xc
+  56:	6231                	lui	tp,0xc
+  58:	6265                	lui	tp,0x19
+  5a:	66636563          	bltu	t1,t1,6c4 <.Lline_table_start0+0x6c4>
+  5e:	61303637          	lui	a2,0x61303
+  62:	3636                	.insn	2, 0x3636
+  64:	00293337          	lui	t1,0x293
+  68:	78652d63          	.insn	4, 0x78652d63
+  6c:	6d61                	lui	s10,0x18
+  6e:	6c70                	ld	a2,216(s0)
+  70:	2f65                	addiw	t5,t5,25 # 1a019 <sum__EXPORT_METADATA+0x7e39>
+  72:	7865                	lui	a6,0xffff9
+  74:	6d61                	lui	s10,0x18
+  76:	6c70                	ld	a2,216(s0)
+  78:	2e65                	addiw	t3,t3,25
+  7a:	00610063          	beq	sp,t1,7a <.debug_str+0x7a>
+  7e:	0062                	c.slli	zero,0x18
+  80:	79730063          	beq	t1,s7,800 <.Lline_table_start0+0x800>
+  84:	626d                	lui	tp,0x1b
+  86:	6c5f6c6f          	jal	s8,f6f4a <sum__EXPORT_METADATA+0xe4d6a>
+  8a:	6e65                	lui	t3,0x19
+  8c:	00687467          	.insn	4, 0x00687467
+  90:	6576                	ld	a0,344(sp)
+  92:	7372                	ld	t1,312(sp)
+  94:	6f69                	lui	t5,0x1a
+  96:	006e                	c.slli	zero,0x1b
+  98:	6e75                	lui	t3,0x1d
+  9a:	6e676973          	.insn	4, 0x6e676973
+  9e:	6465                	lui	s0,0x19
+  a0:	6320                	ld	s0,64(a4)
+  a2:	6168                	ld	a0,192(a0)
+  a4:	0072                	c.slli	zero,0x1c
+  a6:	6e69                	lui	t3,0x1a
+  a8:	7570                	ld	a2,232(a0)
+  aa:	5f74                	lw	a3,124(a4)
+  ac:	6572                	ld	a0,280(sp)
+  ae:	63007367          	.insn	4, 0x63007367
+  b2:	6168                	ld	a0,192(a0)
+  b4:	0072                	c.slli	zero,0x1c
+  b6:	6e69                	lui	t3,0x1a
+  b8:	0074                	addi	a3,sp,12
+  ba:	5f6d7573          	.insn	4, 0x5f6d7573
+  be:	455f 5058 524f      	.insn	6, 0x524f5058455f
+  c4:	5f54                	lw	a3,60(a4)
+  c6:	454d                	li	a0,19
+  c8:	4154                	lw	a3,4(a0)
+  ca:	4144                	lw	s1,4(a0)
+  cc:	4154                	lw	a3,4(a0)
+  ce:	7300                	ld	s0,32(a4)
+  d0:	6d79                	lui	s10,0x1e
+  d2:	6f62                	ld	t5,24(sp)
+  d4:	006c                	addi	a1,sp,12
+  d6:	6f50                	ld	a2,152(a4)
+  d8:	6b6c                	ld	a1,208(a4)
+  da:	5661                	li	a2,-8
+  dc:	5f4d                	li	t5,-13
+  de:	654d                	lui	a0,0x13
+  e0:	6174                	ld	a3,192(a0)
+  e2:	6164                	ld	s1,192(a0)
+  e4:	6174                	ld	a3,192(a0)
+  e6:	7000                	ld	s0,32(s0)
+  e8:	616b6c6f          	jal	s8,b66fe <sum__EXPORT_METADATA+0xa451e>
+  ec:	6d76                	ld	s10,344(sp)
+  ee:	655f 7078 726f      	.insn	6, 0x726f7078655f
+  f4:	5f74                	lw	a3,124(a4)
+  f6:	7564                	ld	s1,232(a0)
+  f8:	6d6d                	lui	s10,0x1b
+  fa:	3079                	.insn	2, 0x3079
+  fc:	7300                	ld	s0,32(a4)
+  fe:	6d75                	lui	s10,0x1d
+ 100:	7500                	ld	s0,40(a0)
+ 102:	736e                	ld	t1,248(sp)
+ 104:	6769                	lui	a4,0x1a
+ 106:	656e                	ld	a0,216(sp)
+ 108:	2064                	.insn	2, 0x2064
+ 10a:	6e69                	lui	t3,0x1a
+ 10c:	0074                	addi	a3,sp,12
+ 10e:	5f5f 5241 4152      	.insn	6, 0x415252415f5f
+ 114:	5f59                	li	t5,-10
+ 116:	455a4953          	.insn	4, 0x455a4953
+ 11a:	545f 5059 5f45      	.insn	6, 0x5f455059545f
+ 120:	005f 6e69 3374      	.insn	6, 0x33746e69005f
+ 126:	5f32                	lw	t5,44(sp)
+ 128:	0074                	addi	a3,sp,12
+ 12a:	6c66                	ld	s8,88(sp)
+ 12c:	6761                	lui	a4,0x18
+ 12e:	756f0073          	.insn	4, 0x756f0073
+ 132:	7074                	ld	a3,224(s0)
+ 134:	7475                	lui	s0,0xffffd
+ 136:	725f 6765 0073      	.insn	6, 0x00736765725f
+ 13c:	6b72772f          	.insn	4, 0x6b72772f
+	...
+
+Disassembly of section .debug_addr:
+
+0000000000000000 <.debug_addr>:
+   0:	0024                	addi	s1,sp,8
+   2:	0000                	unimp
+   4:	0005                	c.nop	1
+   6:	0008                	.insn	2, 0x0008
+   8:	01d9                	addi	gp,gp,22
+   a:	0001                	nop
+   c:	0000                	unimp
+   e:	0000                	unimp
+  10:	21e0                	.insn	2, 0x21e0
+  12:	0001                	nop
+  14:	0000                	unimp
+  16:	0000                	unimp
+  18:	11de                	slli	gp,gp,0x37
+  1a:	0001                	nop
+  1c:	0000                	unimp
+  1e:	0000                	unimp
+  20:	11e0                	addi	s0,sp,236
+  22:	0001                	nop
+  24:	0000                	unimp
+	...
+
+Disassembly of section .comment:
+
+0000000000000000 <.comment>:
+   0:	6e616c63          	bltu	sp,t1,6f8 <.Lline_table_start0+0x6f8>
+   4:	65762067          	.insn	4, 0x65762067
+   8:	7372                	ld	t1,312(sp)
+   a:	6f69                	lui	t5,0x1a
+   c:	206e                	.insn	2, 0x206e
+   e:	3132                	.insn	2, 0x3132
+  10:	302e                	.insn	2, 0x302e
+  12:	302e                	.insn	2, 0x302e
+  14:	20746967          	.insn	4, 0x20746967
+  18:	6828                	ld	a0,80(s0)
+  1a:	7474                	ld	a3,232(s0)
+  1c:	7370                	ld	a2,224(a4)
+  1e:	2f3a                	.insn	2, 0x2f3a
+  20:	7469672f          	.insn	4, 0x7469672f
+  24:	7568                	ld	a0,232(a0)
+  26:	2e62                	.insn	2, 0x2e62
+  28:	2f6d6f63          	bltu	s10,s6,326 <.Lline_table_start0+0x326>
+  2c:	6c6c                	ld	a1,216(s0)
+  2e:	6d76                	ld	s10,344(sp)
+  30:	766c6c2f          	.insn	4, 0x766c6c2f
+  34:	2d6d                	addiw	s10,s10,27 # 1d01b <sum__EXPORT_METADATA+0xae3b>
+  36:	7270                	ld	a2,224(a2)
+  38:	63656a6f          	jal	s4,5666e <sum__EXPORT_METADATA+0x4448e>
+  3c:	2074                	.insn	2, 0x2074
+  3e:	3339                	addiw	t1,t1,-18 # 292fee <sum__EXPORT_METADATA+0x280e0e>
+  40:	3161                	addiw	sp,sp,-8
+  42:	3831                	addiw	a6,a6,-20 # ffffffffffff8fec <sum__EXPORT_METADATA+0xfffffffffffe6e0c>
+  44:	3434                	.insn	2, 0x3434
+  46:	3930                	.insn	2, 0x3930
+  48:	6566                	ld	a0,88(sp)
+  4a:	3662                	.insn	2, 0x3662
+  4c:	3062                	.insn	2, 0x3062
+  4e:	6265                	lui	tp,0x19
+  50:	3162                	.insn	2, 0x3162
+  52:	3030                	.insn	2, 0x3030
+  54:	6531                	lui	a0,0xc
+  56:	6231                	lui	tp,0xc
+  58:	6265                	lui	tp,0x19
+  5a:	66636563          	bltu	t1,t1,6c4 <.Lline_table_start0+0x6c4>
+  5e:	61303637          	lui	a2,0x61303
+  62:	3636                	.insn	2, 0x3636
+  64:	00293337          	lui	t1,0x293
+  68:	4c00                	lw	s0,24(s0)
+  6a:	6e69                	lui	t3,0x1a
+  6c:	3a72656b          	.insn	4, 0x3a72656b
+  70:	4c20                	lw	s0,88(s0)
+  72:	444c                	lw	a1,12(s0)
+  74:	3220                	.insn	2, 0x3220
+  76:	2e31                	addiw	t3,t3,12 # 1a00c <sum__EXPORT_METADATA+0x7e2c>
+  78:	2e30                	.insn	2, 0x2e30
+  7a:	2030                	.insn	2, 0x2030
+  7c:	6828                	ld	a0,80(s0)
+  7e:	7474                	ld	a3,232(s0)
+  80:	7370                	ld	a2,224(a4)
+  82:	2f3a                	.insn	2, 0x2f3a
+  84:	7469672f          	.insn	4, 0x7469672f
+  88:	7568                	ld	a0,232(a0)
+  8a:	2e62                	.insn	2, 0x2e62
+  8c:	2f6d6f63          	bltu	s10,s6,38a <.Lline_table_start0+0x38a>
+  90:	6c6c                	ld	a1,216(s0)
+  92:	6d76                	ld	s10,344(sp)
+  94:	766c6c2f          	.insn	4, 0x766c6c2f
+  98:	2d6d                	addiw	s10,s10,27
+  9a:	7270                	ld	a2,224(a2)
+  9c:	63656a6f          	jal	s4,566d2 <sum__EXPORT_METADATA+0x444f2>
+  a0:	2074                	.insn	2, 0x2074
+  a2:	3339                	addiw	t1,t1,-18 # 292fee <sum__EXPORT_METADATA+0x280e0e>
+  a4:	3161                	addiw	sp,sp,-8
+  a6:	3831                	addiw	a6,a6,-20
+  a8:	3434                	.insn	2, 0x3434
+  aa:	3930                	.insn	2, 0x3930
+  ac:	6566                	ld	a0,88(sp)
+  ae:	3662                	.insn	2, 0x3662
+  b0:	3062                	.insn	2, 0x3062
+  b2:	6265                	lui	tp,0x19
+  b4:	3162                	.insn	2, 0x3162
+  b6:	3030                	.insn	2, 0x3030
+  b8:	6531                	lui	a0,0xc
+  ba:	6231                	lui	tp,0xc
+  bc:	6265                	lui	tp,0x19
+  be:	66636563          	bltu	t1,t1,728 <.Lline_table_start0+0x728>
+  c2:	61303637          	lui	a2,0x61303
+  c6:	3636                	.insn	2, 0x3636
+  c8:	00293337          	lui	t1,0x293
+
+Disassembly of section .riscv.attributes:
+
+0000000000000000 <.riscv.attributes>:
+   0:	4641                	li	a2,16
+   2:	0000                	unimp
+   4:	7200                	ld	s0,32(a2)
+   6:	7369                	lui	t1,0xffffa
+   8:	01007663          	bgeu	zero,a6,14 <.riscv.attributes+0x14>
+   c:	003c                	addi	a5,sp,8
+   e:	0000                	unimp
+  10:	0804                	addi	s1,sp,16
+  12:	7205                	lui	tp,0xfffe1
+  14:	3676                	.insn	2, 0x3676
+  16:	6534                	ld	a3,72(a0)
+  18:	7032                	.insn	2, 0x7032
+  1a:	5f30                	lw	a2,120(a4)
+  1c:	326d                	addiw	tp,tp,-5 # fffffffffffe0ffb <sum__EXPORT_METADATA+0xfffffffffffcee1b>
+  1e:	3070                	.insn	2, 0x3070
+  20:	615f 7032 5f31      	.insn	6, 0x5f317032615f
+  26:	30703263          	.insn	4, 0x30703263
+  2a:	7a5f 6d6d 6c75      	.insn	6, 0x6c756d6d7a5f
+  30:	7031                	c.lui	zero,0xfffec
+  32:	5f30                	lw	a2,120(a4)
+  34:	617a                	ld	sp,408(sp)
+  36:	6d61                	lui	s10,0x18
+  38:	3070316f          	jal	sp,3b3e <.Lline_table_start0+0x3b3e>
+  3c:	7a5f 6c61 7372      	.insn	6, 0x73726c617a5f
+  42:	30703163          	.insn	4, 0x30703163
+	...
+
+Disassembly of section .debug_frame:
+
+0000000000000000 <.debug_frame>:
+   0:	0014                	.insn	2, 0x0014
+   2:	0000                	unimp
+   4:	ffff                	.insn	2, 0xffff
+   6:	ffff                	.insn	2, 0xffff
+   8:	0004                	.insn	2, 0x0004
+   a:	0008                	.insn	2, 0x0008
+   c:	7801                	lui	a6,0xfffe0
+   e:	0c01                	addi	s8,s8,0
+  10:	0002                	c.slli64	zero
+  12:	0000                	unimp
+  14:	0000                	unimp
+  16:	0000                	unimp
+  18:	0014                	.insn	2, 0x0014
+  1a:	0000                	unimp
+  1c:	0000                	unimp
+  1e:	0000                	unimp
+  20:	11de                	slli	gp,gp,0x37
+  22:	0001                	nop
+  24:	0000                	unimp
+  26:	0000                	unimp
+  28:	0002                	c.slli64	zero
+  2a:	0000                	unimp
+  2c:	0000                	unimp
+  2e:	0000                	unimp
+  30:	0014                	.insn	2, 0x0014
+  32:	0000                	unimp
+  34:	0000                	unimp
+  36:	0000                	unimp
+  38:	11e0                	addi	s0,sp,236
+  3a:	0001                	nop
+	...
+
+Disassembly of section .debug_line:
+
+0000000000000000 <.Lline_table_start0>:
+   0:	0000009b          	sext.w	ra,zero
+   4:	0005                	c.nop	1
+   6:	0008                	.insn	2, 0x0008
+   8:	007e                	c.slli	zero,0x1f
+   a:	0000                	unimp
+   c:	0101                	addi	sp,sp,0
+   e:	fb01                	bnez	a4,ffffffffffffff1e <sum__EXPORT_METADATA+0xfffffffffffedd3e>
+  10:	0d0e                	slli	s10,s10,0x3
+  12:	0100                	addi	s0,sp,128
+  14:	0101                	addi	sp,sp,0
+  16:	0001                	nop
+  18:	0000                	unimp
+  1a:	0001                	nop
+  1c:	0100                	addi	s0,sp,128
+  1e:	0101                	addi	sp,sp,0
+  20:	031f 0062 0000      	.insn	6, 0x0062031f
+  26:	0056                	c.slli	zero,0x15
+  28:	0000                	unimp
+  2a:	00000037          	lui	zero,0x0
+  2e:	021f0103          	lb	sp,33(t5) # 1a021 <sum__EXPORT_METADATA+0x7e41>
+  32:	041e050f          	.insn	4, 0x041e050f
+  36:	0000                	unimp
+  38:	0000                	unimp
+  3a:	fc00                	sd	s0,56(s0)
+  3c:	95b6                	add	a1,a1,a3
+  3e:	402e                	.insn	2, 0x402e
+  40:	c328                	sw	a0,64(a4)
+  42:	bc0d                	j	fffffffffffffa74 <sum__EXPORT_METADATA+0xfffffffffffed894>
+  44:	42ee                	lw	t0,216(sp)
+  46:	535a43a3          	.insn	4, 0x535a43a3
+  4a:	2405                	addiw	s0,s0,1 # ffffffffffffd001 <sum__EXPORT_METADATA+0xfffffffffffeae21>
+  4c:	0000                	unimp
+  4e:	0100                	addi	s0,sp,128
+  50:	b6fc                	.insn	2, 0xb6fc
+  52:	2e95                	addiw	t4,t4,5
+  54:	2840                	.insn	2, 0x2840
+  56:	eebc0dc3          	.insn	4, 0xeebc0dc3
+  5a:	a342                	.insn	2, 0xa342
+  5c:	05535a43          	.insn	4, 0x05535a43
+  60:	0014                	.insn	2, 0x0014
+  62:	0000                	unimp
+  64:	6101                	addi	sp,sp,0
+  66:	567b7e6f          	jal	t3,b7dcc <sum__EXPORT_METADATA+0xa5bec>
+  6a:	01328de3          	beq	t0,s3,884 <.Lline_table_start0+0x884>
+  6e:	0aa2                	slli	s5,s5,0x8
+  70:	07b5                	addi	a5,a5,13
+  72:	e59c                	sd	a5,8(a1)
+  74:	2ea9                	addiw	t4,t4,10
+  76:	0000                	unimp
+  78:	0200                	addi	s0,sp,256
+  7a:	0bcd                	addi	s7,s7,19
+  7c:	70a83747          	.insn	4, 0x70a83747
+  80:	f95be8b7          	lui	a7,0xf95be
+  84:	3f8124cf          	.insn	4, 0x3f8124cf
+  88:	6cb2                	ld	s9,264(sp)
+  8a:	0105                	addi	sp,sp,1
+  8c:	000a                	c.slli	zero,0x2
+  8e:	0209                	addi	tp,tp,2 # 2 <.Lline_table_start0+0x2>
+  90:	11de                	slli	gp,gp,0x37
+  92:	0001                	nop
+  94:	0000                	unimp
+  96:	0000                	unimp
+  98:	0916                	slli	s2,s2,0x5
+  9a:	0002                	c.slli64	zero
+  9c:	0100                	addi	s0,sp,128
+  9e:	Address 0x9e is out of bounds.
+
+
+Disassembly of section .debug_line_str:
+
+0000000000000000 <.debug_line_str>:
+   0:	78652d63          	.insn	4, 0x78652d63
+   4:	6d61                	lui	s10,0x18
+   6:	6c70                	ld	a2,216(s0)
+   8:	2f65                	addiw	t5,t5,25
+   a:	7865                	lui	a6,0xffff9
+   c:	6d61                	lui	s10,0x18
+   e:	6c70                	ld	a2,216(s0)
+  10:	2e65                	addiw	t3,t3,25
+  12:	6f700063          	beq	zero,s7,6f2 <.Lline_table_start0+0x6f2>
+  16:	6b6c                	ld	a1,208(a4)
+  18:	7661                	lui	a2,0xffff8
+  1a:	5f6d                	li	t5,-5
+  1c:	73657567          	.insn	4, 0x73657567
+  20:	2e74                	.insn	2, 0x2e74
+  22:	0068                	addi	a0,sp,12
+  24:	7865                	lui	a6,0xffff9
+  26:	6d61                	lui	s10,0x18
+  28:	6c70                	ld	a2,216(s0)
+  2a:	2e65                	addiw	t3,t3,25
+  2c:	74730063          	beq	t1,t2,76c <.Lline_table_start0+0x76c>
+  30:	6964                	ld	s1,208(a0)
+  32:	746e                	ld	s0,248(sp)
+  34:	682e                	ld	a6,200(sp)
+  36:	2f00                	.insn	2, 0x2f00
+  38:	2f74706f          	j	47b2e <sum__EXPORT_METADATA+0x3594e>
+  3c:	6c6c                	ld	a1,216(s0)
+  3e:	6d76                	ld	s10,344(sp)
+  40:	62696c2f          	.insn	4, 0x62696c2f
+  44:	616c632f          	.insn	4, 0x616c632f
+  48:	676e                	ld	a4,216(sp)
+  4a:	2f31322f          	.insn	4, 0x2f31322f
+  4e:	6e69                	lui	t3,0x1a
+  50:	64756c63          	bltu	a0,t2,6a8 <.Lline_table_start0+0x6a8>
+  54:	0065                	c.nop	25
+  56:	2f2e                	.insn	2, 0x2f2e
+  58:	78652d63          	.insn	4, 0x78652d63
+  5c:	6d61                	lui	s10,0x18
+  5e:	6c70                	ld	a2,216(s0)
+  60:	0065                	c.nop	25
+  62:	6b72772f          	.insn	4, 0x6b72772f
+	...

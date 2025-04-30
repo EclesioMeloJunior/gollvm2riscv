@@ -19,7 +19,8 @@
     -fno-exceptions \
     -fno-rtti \
     -D_GNU_SOURCE \
-    -o c2pvm-gcc.elf \
+    -E \
+    -o c2pvm-gcc.txt \
     ./c-example/example.c
 
 /usr/local/riscv-unknown-elf/bin/riscv-unknown-elf-objdump -D -W ./c2pvm.elf > ./c2pvm.dump.txt

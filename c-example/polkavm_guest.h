@@ -133,7 +133,7 @@ struct PolkaVM_Metadata {
 static struct PolkaVM_Metadata POLKAVM_JOIN(fn_name, __EXPORT_METADATA) __attribute__ ((section(".polkavm_metadata"))) = { \
     1, 0, sizeof(#fn_name) - 1, #fn_name, POLKAVM_COUNT_REGS(__VA_ARGS__), POLKAVM_COUNT_REGS(arg_return_ty) \
 }; \
-static void __attribute__ ((naked, used)) POLKAVM_UNIQUE(polkavm_export_dummy)() { \
+static void __attribute__ ((naked, used)) POLKAVM_UNIQUE(plokavm_export_dummy)() { \
     __asm__( \
         ".pushsection .polkavm_exports,\"Ra\",@note\n" \
         ".byte 1\n" \

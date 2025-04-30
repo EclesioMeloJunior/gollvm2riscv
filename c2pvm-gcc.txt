@@ -1,0 +1,1427 @@
+# 0 "./c-example/example.c"
+# 1 "/home/eclesiomelo/p/gollvm2riscv//"
+# 0 "<built-in>"
+#define __STDC__ 1
+# 0 "<built-in>"
+#define __STDC_VERSION__ 201710L
+# 0 "<built-in>"
+#define __STDC_UTF_16__ 1
+# 0 "<built-in>"
+#define __STDC_UTF_32__ 1
+# 0 "<built-in>"
+#define __STDC_HOSTED__ 1
+# 0 "<built-in>"
+#define __GNUC__ 14
+# 0 "<built-in>"
+#define __GNUC_MINOR__ 2
+# 0 "<built-in>"
+#define __GNUC_PATCHLEVEL__ 0
+# 0 "<built-in>"
+#define __VERSION__ "14.2.0"
+# 0 "<built-in>"
+#define __ATOMIC_RELAXED 0
+# 0 "<built-in>"
+#define __ATOMIC_SEQ_CST 5
+# 0 "<built-in>"
+#define __ATOMIC_ACQUIRE 2
+# 0 "<built-in>"
+#define __ATOMIC_RELEASE 3
+# 0 "<built-in>"
+#define __ATOMIC_ACQ_REL 4
+# 0 "<built-in>"
+#define __ATOMIC_CONSUME 1
+# 0 "<built-in>"
+#define __pic__ 2
+# 0 "<built-in>"
+#define __PIC__ 2
+# 0 "<built-in>"
+#define __pie__ 2
+# 0 "<built-in>"
+#define __PIE__ 2
+# 0 "<built-in>"
+#define __OPTIMIZE__ 1
+# 0 "<built-in>"
+#define __FAST_MATH__ 1
+# 0 "<built-in>"
+#define __NO_MATH_ERRNO__ 1
+# 0 "<built-in>"
+#define __RECIPROCAL_MATH__ 1
+# 0 "<built-in>"
+#define __NO_SIGNED_ZEROS__ 1
+# 0 "<built-in>"
+#define __NO_TRAPPING_MATH__ 1
+# 0 "<built-in>"
+#define __ASSOCIATIVE_MATH__ 1
+# 0 "<built-in>"
+#define __FINITE_MATH_ONLY__ 1
+# 0 "<built-in>"
+#define _LP64 1
+# 0 "<built-in>"
+#define __LP64__ 1
+# 0 "<built-in>"
+#define __SIZEOF_INT__ 4
+# 0 "<built-in>"
+#define __SIZEOF_LONG__ 8
+# 0 "<built-in>"
+#define __SIZEOF_LONG_LONG__ 8
+# 0 "<built-in>"
+#define __SIZEOF_SHORT__ 2
+# 0 "<built-in>"
+#define __SIZEOF_FLOAT__ 4
+# 0 "<built-in>"
+#define __SIZEOF_DOUBLE__ 8
+# 0 "<built-in>"
+#define __SIZEOF_LONG_DOUBLE__ 16
+# 0 "<built-in>"
+#define __SIZEOF_SIZE_T__ 8
+# 0 "<built-in>"
+#define __CHAR_BIT__ 8
+# 0 "<built-in>"
+#define __BIGGEST_ALIGNMENT__ 16
+# 0 "<built-in>"
+#define __ORDER_LITTLE_ENDIAN__ 1234
+# 0 "<built-in>"
+#define __ORDER_BIG_ENDIAN__ 4321
+# 0 "<built-in>"
+#define __ORDER_PDP_ENDIAN__ 3412
+# 0 "<built-in>"
+#define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
+# 0 "<built-in>"
+#define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
+# 0 "<built-in>"
+#define __SIZEOF_POINTER__ 8
+# 0 "<built-in>"
+#define __GNUC_EXECUTION_CHARSET_NAME "UTF-8"
+# 0 "<built-in>"
+#define __GNUC_WIDE_EXECUTION_CHARSET_NAME "UTF-32LE"
+# 0 "<built-in>"
+#define __SIZE_TYPE__ long unsigned int
+# 0 "<built-in>"
+#define __PTRDIFF_TYPE__ long int
+# 0 "<built-in>"
+#define __WCHAR_TYPE__ int
+# 0 "<built-in>"
+#define __WINT_TYPE__ unsigned int
+# 0 "<built-in>"
+#define __INTMAX_TYPE__ long int
+# 0 "<built-in>"
+#define __UINTMAX_TYPE__ long unsigned int
+# 0 "<built-in>"
+#define __CHAR16_TYPE__ short unsigned int
+# 0 "<built-in>"
+#define __CHAR32_TYPE__ unsigned int
+# 0 "<built-in>"
+#define __SIG_ATOMIC_TYPE__ int
+# 0 "<built-in>"
+#define __INT8_TYPE__ signed char
+# 0 "<built-in>"
+#define __INT16_TYPE__ short int
+# 0 "<built-in>"
+#define __INT32_TYPE__ int
+# 0 "<built-in>"
+#define __INT64_TYPE__ long int
+# 0 "<built-in>"
+#define __UINT8_TYPE__ unsigned char
+# 0 "<built-in>"
+#define __UINT16_TYPE__ short unsigned int
+# 0 "<built-in>"
+#define __UINT32_TYPE__ unsigned int
+# 0 "<built-in>"
+#define __UINT64_TYPE__ long unsigned int
+# 0 "<built-in>"
+#define __INT_LEAST8_TYPE__ signed char
+# 0 "<built-in>"
+#define __INT_LEAST16_TYPE__ short int
+# 0 "<built-in>"
+#define __INT_LEAST32_TYPE__ int
+# 0 "<built-in>"
+#define __INT_LEAST64_TYPE__ long int
+# 0 "<built-in>"
+#define __UINT_LEAST8_TYPE__ unsigned char
+# 0 "<built-in>"
+#define __UINT_LEAST16_TYPE__ short unsigned int
+# 0 "<built-in>"
+#define __UINT_LEAST32_TYPE__ unsigned int
+# 0 "<built-in>"
+#define __UINT_LEAST64_TYPE__ long unsigned int
+# 0 "<built-in>"
+#define __INT_FAST8_TYPE__ int
+# 0 "<built-in>"
+#define __INT_FAST16_TYPE__ int
+# 0 "<built-in>"
+#define __INT_FAST32_TYPE__ int
+# 0 "<built-in>"
+#define __INT_FAST64_TYPE__ long int
+# 0 "<built-in>"
+#define __UINT_FAST8_TYPE__ unsigned int
+# 0 "<built-in>"
+#define __UINT_FAST16_TYPE__ unsigned int
+# 0 "<built-in>"
+#define __UINT_FAST32_TYPE__ unsigned int
+# 0 "<built-in>"
+#define __UINT_FAST64_TYPE__ long unsigned int
+# 0 "<built-in>"
+#define __INTPTR_TYPE__ long int
+# 0 "<built-in>"
+#define __UINTPTR_TYPE__ long unsigned int
+# 0 "<built-in>"
+#define __GXX_ABI_VERSION 1019
+# 0 "<built-in>"
+#define __SCHAR_MAX__ 0x7f
+# 0 "<built-in>"
+#define __SHRT_MAX__ 0x7fff
+# 0 "<built-in>"
+#define __INT_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __LONG_MAX__ 0x7fffffffffffffffL
+# 0 "<built-in>"
+#define __LONG_LONG_MAX__ 0x7fffffffffffffffLL
+# 0 "<built-in>"
+#define __WCHAR_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __WCHAR_MIN__ (-__WCHAR_MAX__ - 1)
+# 0 "<built-in>"
+#define __WINT_MAX__ 0xffffffffU
+# 0 "<built-in>"
+#define __WINT_MIN__ 0U
+# 0 "<built-in>"
+#define __PTRDIFF_MAX__ 0x7fffffffffffffffL
+# 0 "<built-in>"
+#define __SIZE_MAX__ 0xffffffffffffffffUL
+# 0 "<built-in>"
+#define __SCHAR_WIDTH__ 8
+# 0 "<built-in>"
+#define __SHRT_WIDTH__ 16
+# 0 "<built-in>"
+#define __INT_WIDTH__ 32
+# 0 "<built-in>"
+#define __LONG_WIDTH__ 64
+# 0 "<built-in>"
+#define __LONG_LONG_WIDTH__ 64
+# 0 "<built-in>"
+#define __WCHAR_WIDTH__ 32
+# 0 "<built-in>"
+#define __WINT_WIDTH__ 32
+# 0 "<built-in>"
+#define __PTRDIFF_WIDTH__ 64
+# 0 "<built-in>"
+#define __SIZE_WIDTH__ 64
+# 0 "<built-in>"
+#define __INTMAX_MAX__ 0x7fffffffffffffffL
+# 0 "<built-in>"
+#define __INTMAX_C(c) c ## L
+# 0 "<built-in>"
+#define __UINTMAX_MAX__ 0xffffffffffffffffUL
+# 0 "<built-in>"
+#define __UINTMAX_C(c) c ## UL
+# 0 "<built-in>"
+#define __INTMAX_WIDTH__ 64
+# 0 "<built-in>"
+#define __SIG_ATOMIC_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)
+# 0 "<built-in>"
+#define __SIG_ATOMIC_WIDTH__ 32
+# 0 "<built-in>"
+#define __INT8_MAX__ 0x7f
+# 0 "<built-in>"
+#define __INT16_MAX__ 0x7fff
+# 0 "<built-in>"
+#define __INT32_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __INT64_MAX__ 0x7fffffffffffffffL
+# 0 "<built-in>"
+#define __UINT8_MAX__ 0xff
+# 0 "<built-in>"
+#define __UINT16_MAX__ 0xffff
+# 0 "<built-in>"
+#define __UINT32_MAX__ 0xffffffffU
+# 0 "<built-in>"
+#define __UINT64_MAX__ 0xffffffffffffffffUL
+# 0 "<built-in>"
+#define __INT_LEAST8_MAX__ 0x7f
+# 0 "<built-in>"
+#define __INT8_C(c) c
+# 0 "<built-in>"
+#define __INT_LEAST8_WIDTH__ 8
+# 0 "<built-in>"
+#define __INT_LEAST16_MAX__ 0x7fff
+# 0 "<built-in>"
+#define __INT16_C(c) c
+# 0 "<built-in>"
+#define __INT_LEAST16_WIDTH__ 16
+# 0 "<built-in>"
+#define __INT_LEAST32_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __INT32_C(c) c
+# 0 "<built-in>"
+#define __INT_LEAST32_WIDTH__ 32
+# 0 "<built-in>"
+#define __INT_LEAST64_MAX__ 0x7fffffffffffffffL
+# 0 "<built-in>"
+#define __INT64_C(c) c ## L
+# 0 "<built-in>"
+#define __INT_LEAST64_WIDTH__ 64
+# 0 "<built-in>"
+#define __UINT_LEAST8_MAX__ 0xff
+# 0 "<built-in>"
+#define __UINT8_C(c) c
+# 0 "<built-in>"
+#define __UINT_LEAST16_MAX__ 0xffff
+# 0 "<built-in>"
+#define __UINT16_C(c) c
+# 0 "<built-in>"
+#define __UINT_LEAST32_MAX__ 0xffffffffU
+# 0 "<built-in>"
+#define __UINT32_C(c) c ## U
+# 0 "<built-in>"
+#define __UINT_LEAST64_MAX__ 0xffffffffffffffffUL
+# 0 "<built-in>"
+#define __UINT64_C(c) c ## UL
+# 0 "<built-in>"
+#define __INT_FAST8_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __INT_FAST8_WIDTH__ 32
+# 0 "<built-in>"
+#define __INT_FAST16_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __INT_FAST16_WIDTH__ 32
+# 0 "<built-in>"
+#define __INT_FAST32_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __INT_FAST32_WIDTH__ 32
+# 0 "<built-in>"
+#define __INT_FAST64_MAX__ 0x7fffffffffffffffL
+# 0 "<built-in>"
+#define __INT_FAST64_WIDTH__ 64
+# 0 "<built-in>"
+#define __UINT_FAST8_MAX__ 0xffffffffU
+# 0 "<built-in>"
+#define __UINT_FAST16_MAX__ 0xffffffffU
+# 0 "<built-in>"
+#define __UINT_FAST32_MAX__ 0xffffffffU
+# 0 "<built-in>"
+#define __UINT_FAST64_MAX__ 0xffffffffffffffffUL
+# 0 "<built-in>"
+#define __INTPTR_MAX__ 0x7fffffffffffffffL
+# 0 "<built-in>"
+#define __INTPTR_WIDTH__ 64
+# 0 "<built-in>"
+#define __UINTPTR_MAX__ 0xffffffffffffffffUL
+# 0 "<built-in>"
+#define __GCC_IEC_559 0
+# 0 "<built-in>"
+#define __GCC_IEC_559_COMPLEX 0
+# 0 "<built-in>"
+#define __FLT_EVAL_METHOD__ 0
+# 0 "<built-in>"
+#define __FLT_EVAL_METHOD_TS_18661_3__ 0
+# 0 "<built-in>"
+#define __DEC_EVAL_METHOD__ 2
+# 0 "<built-in>"
+#define __FLT_RADIX__ 2
+# 0 "<built-in>"
+#define __FLT_MANT_DIG__ 24
+# 0 "<built-in>"
+#define __FLT_DIG__ 6
+# 0 "<built-in>"
+#define __FLT_MIN_EXP__ (-125)
+# 0 "<built-in>"
+#define __FLT_MIN_10_EXP__ (-37)
+# 0 "<built-in>"
+#define __FLT_MAX_EXP__ 128
+# 0 "<built-in>"
+#define __FLT_MAX_10_EXP__ 38
+# 0 "<built-in>"
+#define __FLT_DECIMAL_DIG__ 9
+# 0 "<built-in>"
+#define __FLT_MAX__ 3.40282346638528859811704183484516925e+38F
+# 0 "<built-in>"
+#define __FLT_NORM_MAX__ 3.40282346638528859811704183484516925e+38F
+# 0 "<built-in>"
+#define __FLT_MIN__ 1.17549435082228750796873653722224568e-38F
+# 0 "<built-in>"
+#define __FLT_EPSILON__ 1.19209289550781250000000000000000000e-7F
+# 0 "<built-in>"
+#define __FLT_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F
+# 0 "<built-in>"
+#define __FLT_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FLT_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __DBL_MANT_DIG__ 53
+# 0 "<built-in>"
+#define __DBL_DIG__ 15
+# 0 "<built-in>"
+#define __DBL_MIN_EXP__ (-1021)
+# 0 "<built-in>"
+#define __DBL_MIN_10_EXP__ (-307)
+# 0 "<built-in>"
+#define __DBL_MAX_EXP__ 1024
+# 0 "<built-in>"
+#define __DBL_MAX_10_EXP__ 308
+# 0 "<built-in>"
+#define __DBL_DECIMAL_DIG__ 17
+# 0 "<built-in>"
+#define __DBL_MAX__ ((double)1.79769313486231570814527423731704357e+308L)
+# 0 "<built-in>"
+#define __DBL_NORM_MAX__ ((double)1.79769313486231570814527423731704357e+308L)
+# 0 "<built-in>"
+#define __DBL_MIN__ ((double)2.22507385850720138309023271733240406e-308L)
+# 0 "<built-in>"
+#define __DBL_EPSILON__ ((double)2.22044604925031308084726333618164062e-16L)
+# 0 "<built-in>"
+#define __DBL_DENORM_MIN__ ((double)4.94065645841246544176568792868221372e-324L)
+# 0 "<built-in>"
+#define __DBL_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __DBL_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __DBL_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __DBL_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __LDBL_MANT_DIG__ 113
+# 0 "<built-in>"
+#define __LDBL_DIG__ 33
+# 0 "<built-in>"
+#define __LDBL_MIN_EXP__ (-16381)
+# 0 "<built-in>"
+#define __LDBL_MIN_10_EXP__ (-4931)
+# 0 "<built-in>"
+#define __LDBL_MAX_EXP__ 16384
+# 0 "<built-in>"
+#define __LDBL_MAX_10_EXP__ 4932
+# 0 "<built-in>"
+#define __DECIMAL_DIG__ 36
+# 0 "<built-in>"
+#define __LDBL_DECIMAL_DIG__ 36
+# 0 "<built-in>"
+#define __LDBL_MAX__ 1.18973149535723176508575932662800702e+4932L
+# 0 "<built-in>"
+#define __LDBL_NORM_MAX__ 1.18973149535723176508575932662800702e+4932L
+# 0 "<built-in>"
+#define __LDBL_MIN__ 3.36210314311209350626267781732175260e-4932L
+# 0 "<built-in>"
+#define __LDBL_EPSILON__ 1.92592994438723585305597794258492732e-34L
+# 0 "<built-in>"
+#define __LDBL_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966L
+# 0 "<built-in>"
+#define __LDBL_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __LDBL_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __LDBL_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __LDBL_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __FLT16_MANT_DIG__ 11
+# 0 "<built-in>"
+#define __FLT16_DIG__ 3
+# 0 "<built-in>"
+#define __FLT16_MIN_EXP__ (-13)
+# 0 "<built-in>"
+#define __FLT16_MIN_10_EXP__ (-4)
+# 0 "<built-in>"
+#define __FLT16_MAX_EXP__ 16
+# 0 "<built-in>"
+#define __FLT16_MAX_10_EXP__ 4
+# 0 "<built-in>"
+#define __FLT16_DECIMAL_DIG__ 5
+# 0 "<built-in>"
+#define __FLT16_MAX__ 6.55040000000000000000000000000000000e+4F16
+# 0 "<built-in>"
+#define __FLT16_NORM_MAX__ 6.55040000000000000000000000000000000e+4F16
+# 0 "<built-in>"
+#define __FLT16_MIN__ 6.10351562500000000000000000000000000e-5F16
+# 0 "<built-in>"
+#define __FLT16_EPSILON__ 9.76562500000000000000000000000000000e-4F16
+# 0 "<built-in>"
+#define __FLT16_DENORM_MIN__ 5.96046447753906250000000000000000000e-8F16
+# 0 "<built-in>"
+#define __FLT16_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT16_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT16_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FLT16_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __FLT32_MANT_DIG__ 24
+# 0 "<built-in>"
+#define __FLT32_DIG__ 6
+# 0 "<built-in>"
+#define __FLT32_MIN_EXP__ (-125)
+# 0 "<built-in>"
+#define __FLT32_MIN_10_EXP__ (-37)
+# 0 "<built-in>"
+#define __FLT32_MAX_EXP__ 128
+# 0 "<built-in>"
+#define __FLT32_MAX_10_EXP__ 38
+# 0 "<built-in>"
+#define __FLT32_DECIMAL_DIG__ 9
+# 0 "<built-in>"
+#define __FLT32_MAX__ 3.40282346638528859811704183484516925e+38F32
+# 0 "<built-in>"
+#define __FLT32_NORM_MAX__ 3.40282346638528859811704183484516925e+38F32
+# 0 "<built-in>"
+#define __FLT32_MIN__ 1.17549435082228750796873653722224568e-38F32
+# 0 "<built-in>"
+#define __FLT32_EPSILON__ 1.19209289550781250000000000000000000e-7F32
+# 0 "<built-in>"
+#define __FLT32_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F32
+# 0 "<built-in>"
+#define __FLT32_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT32_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT32_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FLT32_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __FLT64_MANT_DIG__ 53
+# 0 "<built-in>"
+#define __FLT64_DIG__ 15
+# 0 "<built-in>"
+#define __FLT64_MIN_EXP__ (-1021)
+# 0 "<built-in>"
+#define __FLT64_MIN_10_EXP__ (-307)
+# 0 "<built-in>"
+#define __FLT64_MAX_EXP__ 1024
+# 0 "<built-in>"
+#define __FLT64_MAX_10_EXP__ 308
+# 0 "<built-in>"
+#define __FLT64_DECIMAL_DIG__ 17
+# 0 "<built-in>"
+#define __FLT64_MAX__ 1.79769313486231570814527423731704357e+308F64
+# 0 "<built-in>"
+#define __FLT64_NORM_MAX__ 1.79769313486231570814527423731704357e+308F64
+# 0 "<built-in>"
+#define __FLT64_MIN__ 2.22507385850720138309023271733240406e-308F64
+# 0 "<built-in>"
+#define __FLT64_EPSILON__ 2.22044604925031308084726333618164062e-16F64
+# 0 "<built-in>"
+#define __FLT64_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F64
+# 0 "<built-in>"
+#define __FLT64_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT64_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT64_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FLT64_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __FLT128_MANT_DIG__ 113
+# 0 "<built-in>"
+#define __FLT128_DIG__ 33
+# 0 "<built-in>"
+#define __FLT128_MIN_EXP__ (-16381)
+# 0 "<built-in>"
+#define __FLT128_MIN_10_EXP__ (-4931)
+# 0 "<built-in>"
+#define __FLT128_MAX_EXP__ 16384
+# 0 "<built-in>"
+#define __FLT128_MAX_10_EXP__ 4932
+# 0 "<built-in>"
+#define __FLT128_DECIMAL_DIG__ 36
+# 0 "<built-in>"
+#define __FLT128_MAX__ 1.18973149535723176508575932662800702e+4932F128
+# 0 "<built-in>"
+#define __FLT128_NORM_MAX__ 1.18973149535723176508575932662800702e+4932F128
+# 0 "<built-in>"
+#define __FLT128_MIN__ 3.36210314311209350626267781732175260e-4932F128
+# 0 "<built-in>"
+#define __FLT128_EPSILON__ 1.92592994438723585305597794258492732e-34F128
+# 0 "<built-in>"
+#define __FLT128_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966F128
+# 0 "<built-in>"
+#define __FLT128_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT128_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT128_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FLT128_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __FLT32X_MANT_DIG__ 53
+# 0 "<built-in>"
+#define __FLT32X_DIG__ 15
+# 0 "<built-in>"
+#define __FLT32X_MIN_EXP__ (-1021)
+# 0 "<built-in>"
+#define __FLT32X_MIN_10_EXP__ (-307)
+# 0 "<built-in>"
+#define __FLT32X_MAX_EXP__ 1024
+# 0 "<built-in>"
+#define __FLT32X_MAX_10_EXP__ 308
+# 0 "<built-in>"
+#define __FLT32X_DECIMAL_DIG__ 17
+# 0 "<built-in>"
+#define __FLT32X_MAX__ 1.79769313486231570814527423731704357e+308F32x
+# 0 "<built-in>"
+#define __FLT32X_NORM_MAX__ 1.79769313486231570814527423731704357e+308F32x
+# 0 "<built-in>"
+#define __FLT32X_MIN__ 2.22507385850720138309023271733240406e-308F32x
+# 0 "<built-in>"
+#define __FLT32X_EPSILON__ 2.22044604925031308084726333618164062e-16F32x
+# 0 "<built-in>"
+#define __FLT32X_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F32x
+# 0 "<built-in>"
+#define __FLT32X_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT32X_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT32X_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FLT32X_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __FLT64X_MANT_DIG__ 113
+# 0 "<built-in>"
+#define __FLT64X_DIG__ 33
+# 0 "<built-in>"
+#define __FLT64X_MIN_EXP__ (-16381)
+# 0 "<built-in>"
+#define __FLT64X_MIN_10_EXP__ (-4931)
+# 0 "<built-in>"
+#define __FLT64X_MAX_EXP__ 16384
+# 0 "<built-in>"
+#define __FLT64X_MAX_10_EXP__ 4932
+# 0 "<built-in>"
+#define __FLT64X_DECIMAL_DIG__ 36
+# 0 "<built-in>"
+#define __FLT64X_MAX__ 1.18973149535723176508575932662800702e+4932F64x
+# 0 "<built-in>"
+#define __FLT64X_NORM_MAX__ 1.18973149535723176508575932662800702e+4932F64x
+# 0 "<built-in>"
+#define __FLT64X_MIN__ 3.36210314311209350626267781732175260e-4932F64x
+# 0 "<built-in>"
+#define __FLT64X_EPSILON__ 1.92592994438723585305597794258492732e-34F64x
+# 0 "<built-in>"
+#define __FLT64X_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966F64x
+# 0 "<built-in>"
+#define __FLT64X_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT64X_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT64X_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FLT64X_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __REGISTER_PREFIX__ 
+# 0 "<built-in>"
+#define __USER_LABEL_PREFIX__ 
+# 0 "<built-in>"
+#define __GNUC_STDC_INLINE__ 1
+# 0 "<built-in>"
+#define __CHAR_UNSIGNED__ 1
+# 0 "<built-in>"
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1
+# 0 "<built-in>"
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1
+# 0 "<built-in>"
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1
+# 0 "<built-in>"
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_8 1
+# 0 "<built-in>"
+#define __GCC_ATOMIC_BOOL_LOCK_FREE 2
+# 0 "<built-in>"
+#define __GCC_ATOMIC_CHAR_LOCK_FREE 2
+# 0 "<built-in>"
+#define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 2
+# 0 "<built-in>"
+#define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
+# 0 "<built-in>"
+#define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2
+# 0 "<built-in>"
+#define __GCC_ATOMIC_SHORT_LOCK_FREE 2
+# 0 "<built-in>"
+#define __GCC_ATOMIC_INT_LOCK_FREE 2
+# 0 "<built-in>"
+#define __GCC_ATOMIC_LONG_LOCK_FREE 2
+# 0 "<built-in>"
+#define __GCC_ATOMIC_LLONG_LOCK_FREE 2
+# 0 "<built-in>"
+#define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
+# 0 "<built-in>"
+#define __GCC_ATOMIC_POINTER_LOCK_FREE 2
+# 0 "<built-in>"
+#define __GCC_HAVE_DWARF2_CFI_ASM 1
+# 0 "<built-in>"
+#define __PRAGMA_REDEFINE_EXTNAME 1
+# 0 "<built-in>"
+#define __SIZEOF_INT128__ 16
+# 0 "<built-in>"
+#define __SIZEOF_WCHAR_T__ 4
+# 0 "<built-in>"
+#define __SIZEOF_WINT_T__ 4
+# 0 "<built-in>"
+#define __SIZEOF_PTRDIFF_T__ 8
+# 0 "<built-in>"
+#define __riscv 1
+# 0 "<built-in>"
+#define __riscv_64e 1
+# 0 "<built-in>"
+#define __riscv_atomic 1
+# 0 "<built-in>"
+#define __riscv_mul 1
+# 0 "<built-in>"
+#define __riscv_div 1
+# 0 "<built-in>"
+#define __riscv_muldiv 1
+# 0 "<built-in>"
+#define __riscv_xlen 64
+# 0 "<built-in>"
+#define __riscv_abi_rve 1
+# 0 "<built-in>"
+#define __riscv_float_abi_soft 1
+# 0 "<built-in>"
+#define __riscv_cmodel_medany 1
+# 0 "<built-in>"
+#define __riscv_misaligned_slow 1
+# 0 "<built-in>"
+#define __riscv_arch_test 1
+# 0 "<built-in>"
+#define __riscv_e 2000000
+# 0 "<built-in>"
+#define __riscv_m 2000000
+# 0 "<built-in>"
+#define __riscv_a 2001000
+# 0 "<built-in>"
+#define __ELF__ 1
+# 0 "<command-line>"
+#define _GNU_SOURCE 1
+# 1 "./c-example/example.c"
+# 1 "/usr/local/riscv-unknown-elf/lib/gcc/riscv-unknown-elf/14.2.0/include/stdint.h" 1 3 4
+# 9 "/usr/local/riscv-unknown-elf/lib/gcc/riscv-unknown-elf/14.2.0/include/stdint.h" 3 4
+# 1 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 1 3 4
+# 10 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define _STDINT_H 
+
+# 1 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/machine/_default_types.h" 1 3 4
+
+
+
+
+
+#define _MACHINE__DEFAULT_TYPES_H 
+
+# 1 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/features.h" 1 3 4
+# 22 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/features.h" 3 4
+#define _SYS_FEATURES_H 
+
+
+
+
+
+# 1 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/_newlib_version.h" 1 3 4
+
+
+
+#define _NEWLIB_VERSION_H__ 1
+
+#define _NEWLIB_VERSION "4.4.0"
+#define __NEWLIB__ 4
+#define __NEWLIB_MINOR__ 4
+#define __NEWLIB_PATCHLEVEL__ 0
+# 29 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/features.h" 2 3 4
+
+
+
+
+#define __GNUC_PREREQ(maj,min) ((__GNUC__ << 16) + __GNUC_MINOR__ >= ((maj) << 16) + (min))
+
+
+
+
+
+
+#define __GNUC_PREREQ__(ma,mi) __GNUC_PREREQ(ma, mi)
+# 112 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/features.h" 3 4
+#undef _ATFILE_SOURCE
+#define _ATFILE_SOURCE 1
+#undef _DEFAULT_SOURCE
+#define _DEFAULT_SOURCE 1
+#undef _ISOC99_SOURCE
+#define _ISOC99_SOURCE 1
+#undef _ISOC11_SOURCE
+#define _ISOC11_SOURCE 1
+#undef _ISOC2X_SOURCE
+#define _ISOC2X_SOURCE 1
+#undef _POSIX_SOURCE
+#define _POSIX_SOURCE 1
+#undef _POSIX_C_SOURCE
+#define _POSIX_C_SOURCE 200809L
+#undef _XOPEN_SOURCE
+#define _XOPEN_SOURCE 700
+#undef _XOPEN_SOURCE_EXTENDED
+#define _XOPEN_SOURCE_EXTENDED 1
+# 141 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/features.h" 3 4
+#undef _POSIX_SOURCE
+#define _POSIX_SOURCE 1
+#undef _POSIX_C_SOURCE
+#define _POSIX_C_SOURCE 200809L
+# 163 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/features.h" 3 4
+#undef _ATFILE_SOURCE
+#define _ATFILE_SOURCE 1
+# 257 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/features.h" 3 4
+#define __ATFILE_VISIBLE 1
+
+
+
+
+
+#define __BSD_VISIBLE 1
+
+
+
+
+
+#define __GNU_VISIBLE 1
+
+
+
+
+
+
+#define __ISO_C_VISIBLE 2020
+# 288 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/features.h" 3 4
+#define __LARGEFILE_VISIBLE 1
+
+
+
+
+
+#define __MISC_VISIBLE 1
+
+
+
+
+
+#define __POSIX_VISIBLE 200809
+# 316 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/features.h" 3 4
+#define __SVID_VISIBLE 1
+
+
+
+
+
+#define __XSI_VISIBLE 700
+# 344 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/features.h" 3 4
+#define __SSP_FORTIFY_LEVEL 0
+# 9 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/machine/_default_types.h" 2 3 4
+
+
+
+
+
+
+#define __EXP(x) __ ##x ##__
+# 26 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/machine/_default_types.h" 3 4
+#define __have_longlong64 1
+
+
+
+
+#define __have_long64 1
+# 41 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/machine/_default_types.h" 3 4
+
+# 41 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/machine/_default_types.h" 3 4
+typedef signed char __int8_t;
+
+typedef unsigned char __uint8_t;
+
+
+
+#define ___int8_t_defined 1
+
+
+
+
+
+
+
+typedef short int __int16_t;
+
+typedef short unsigned int __uint16_t;
+
+
+
+#define ___int16_t_defined 1
+# 77 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/machine/_default_types.h" 3 4
+typedef int __int32_t;
+
+typedef unsigned int __uint32_t;
+
+
+
+#define ___int32_t_defined 1
+# 103 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/machine/_default_types.h" 3 4
+typedef long int __int64_t;
+
+typedef long unsigned int __uint64_t;
+
+
+
+#define ___int64_t_defined 1
+# 134 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/machine/_default_types.h" 3 4
+typedef signed char __int_least8_t;
+
+typedef unsigned char __uint_least8_t;
+
+
+
+#define ___int_least8_t_defined 1
+# 160 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/machine/_default_types.h" 3 4
+typedef short int __int_least16_t;
+
+typedef short unsigned int __uint_least16_t;
+
+
+
+#define ___int_least16_t_defined 1
+# 182 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/machine/_default_types.h" 3 4
+typedef int __int_least32_t;
+
+typedef unsigned int __uint_least32_t;
+
+
+
+#define ___int_least32_t_defined 1
+# 200 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/machine/_default_types.h" 3 4
+typedef long int __int_least64_t;
+
+typedef long unsigned int __uint_least64_t;
+
+
+
+#define ___int_least64_t_defined 1
+
+
+
+
+
+
+
+typedef long int __intmax_t;
+
+
+
+
+
+
+
+typedef long unsigned int __uintmax_t;
+
+
+
+
+
+
+
+typedef long int __intptr_t;
+
+typedef long unsigned int __uintptr_t;
+# 244 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/machine/_default_types.h" 3 4
+#undef __EXP
+# 13 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 2 3 4
+# 1 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 1 3 4
+# 10 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+#define _SYS__INTSUP_H 
+
+
+
+
+
+#define __STDINT_EXP(x) __ ##x ##__
+# 35 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+       
+       
+       
+       
+       
+       
+       
+       
+#undef signed
+#undef unsigned
+#undef char
+#undef short
+#undef int
+#undef __int20
+#undef __int20__
+#undef long
+#define signed +0
+#define unsigned +0
+#define char +0
+#define short +1
+#define __int20 +2
+#define __int20__ +2
+#define int +2
+#define long +4
+
+
+
+#define _INTPTR_EQ_LONG 
+# 82 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+#define __INT8 "hh"
+# 93 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+#define __INT16 "h"
+# 102 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+#define __INT32 
+# 111 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+#define __INT64 "l"
+# 120 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+#define __FAST8 
+# 129 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+#define __FAST16 
+
+
+
+
+
+
+#define __FAST32 
+# 145 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+#define __FAST64 "l"
+
+
+
+
+
+#define __LEAST8 "hh"
+# 162 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+#define __LEAST16 "h"
+# 171 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+#define __LEAST32 
+# 180 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+#define __LEAST64 "l"
+
+
+
+#undef signed
+#undef unsigned
+#undef char
+#undef short
+#undef int
+#undef long
+       
+       
+       
+       
+       
+# 194 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+#undef __int20
+       
+# 195 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_intsup.h" 3 4
+#undef __int20__
+       
+       
+# 14 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 2 3 4
+# 1 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_stdint.h" 1 3 4
+# 10 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_stdint.h" 3 4
+#define _SYS__STDINT_H 
+# 20 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/sys/_stdint.h" 3 4
+typedef __int8_t int8_t ;
+#define _INT8_T_DECLARED 
+
+
+typedef __uint8_t uint8_t ;
+#define _UINT8_T_DECLARED 
+
+#define __int8_t_defined 1
+
+
+
+
+typedef __int16_t int16_t ;
+#define _INT16_T_DECLARED 
+
+
+typedef __uint16_t uint16_t ;
+#define _UINT16_T_DECLARED 
+
+#define __int16_t_defined 1
+
+
+
+
+typedef __int32_t int32_t ;
+#define _INT32_T_DECLARED 
+
+
+typedef __uint32_t uint32_t ;
+#define _UINT32_T_DECLARED 
+
+#define __int32_t_defined 1
+
+
+
+
+typedef __int64_t int64_t ;
+#define _INT64_T_DECLARED 
+
+
+typedef __uint64_t uint64_t ;
+#define _UINT64_T_DECLARED 
+
+#define __int64_t_defined 1
+
+
+
+typedef __intmax_t intmax_t;
+#define _INTMAX_T_DECLARED 
+
+
+
+typedef __uintmax_t uintmax_t;
+#define _UINTMAX_T_DECLARED 
+
+
+
+typedef __intptr_t intptr_t;
+#define _INTPTR_T_DECLARED 
+
+
+
+typedef __uintptr_t uintptr_t;
+#define _UINTPTR_T_DECLARED 
+# 15 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 2 3 4
+
+
+
+
+
+
+typedef __int_least8_t int_least8_t;
+typedef __uint_least8_t uint_least8_t;
+#define __int_least8_t_defined 1
+
+
+
+typedef __int_least16_t int_least16_t;
+typedef __uint_least16_t uint_least16_t;
+#define __int_least16_t_defined 1
+
+
+
+typedef __int_least32_t int_least32_t;
+typedef __uint_least32_t uint_least32_t;
+#define __int_least32_t_defined 1
+
+
+
+typedef __int_least64_t int_least64_t;
+typedef __uint_least64_t uint_least64_t;
+#define __int_least64_t_defined 1
+# 51 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+  typedef int int_fast8_t;
+  typedef unsigned int uint_fast8_t;
+#define __int_fast8_t_defined 1
+
+
+
+
+
+
+
+  typedef int int_fast16_t;
+  typedef unsigned int uint_fast16_t;
+#define __int_fast16_t_defined 1
+
+
+
+
+
+
+
+  typedef int int_fast32_t;
+  typedef unsigned int uint_fast32_t;
+#define __int_fast32_t_defined 1
+
+
+
+
+
+
+
+  typedef long int int_fast64_t;
+  typedef long unsigned int uint_fast64_t;
+#define __int_fast64_t_defined 1
+# 128 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INTPTR_MIN (-__INTPTR_MAX__ - 1)
+#define INTPTR_MAX (__INTPTR_MAX__)
+#define UINTPTR_MAX (__UINTPTR_MAX__)
+# 152 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INT8_MIN (-__INT8_MAX__ - 1)
+#define INT8_MAX (__INT8_MAX__)
+#define UINT8_MAX (__UINT8_MAX__)
+
+
+
+
+
+
+
+#define INT_LEAST8_MIN (-__INT_LEAST8_MAX__ - 1)
+#define INT_LEAST8_MAX (__INT_LEAST8_MAX__)
+#define UINT_LEAST8_MAX (__UINT_LEAST8_MAX__)
+# 174 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INT16_MIN (-__INT16_MAX__ - 1)
+#define INT16_MAX (__INT16_MAX__)
+#define UINT16_MAX (__UINT16_MAX__)
+
+
+
+
+
+
+
+#define INT_LEAST16_MIN (-__INT_LEAST16_MAX__ - 1)
+#define INT_LEAST16_MAX (__INT_LEAST16_MAX__)
+#define UINT_LEAST16_MAX (__UINT_LEAST16_MAX__)
+# 196 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INT32_MIN (-__INT32_MAX__ - 1)
+#define INT32_MAX (__INT32_MAX__)
+#define UINT32_MAX (__UINT32_MAX__)
+# 212 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INT_LEAST32_MIN (-__INT_LEAST32_MAX__ - 1)
+#define INT_LEAST32_MAX (__INT_LEAST32_MAX__)
+#define UINT_LEAST32_MAX (__UINT_LEAST32_MAX__)
+# 230 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INT64_MIN (-__INT64_MAX__ - 1)
+#define INT64_MAX (__INT64_MAX__)
+#define UINT64_MAX (__UINT64_MAX__)
+# 246 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INT_LEAST64_MIN (-__INT_LEAST64_MAX__ - 1)
+#define INT_LEAST64_MAX (__INT_LEAST64_MAX__)
+#define UINT_LEAST64_MAX (__UINT_LEAST64_MAX__)
+# 262 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INT_FAST8_MIN (-__INT_FAST8_MAX__ - 1)
+#define INT_FAST8_MAX (__INT_FAST8_MAX__)
+#define UINT_FAST8_MAX (__UINT_FAST8_MAX__)
+# 278 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INT_FAST16_MIN (-__INT_FAST16_MAX__ - 1)
+#define INT_FAST16_MAX (__INT_FAST16_MAX__)
+#define UINT_FAST16_MAX (__UINT_FAST16_MAX__)
+# 294 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INT_FAST32_MIN (-__INT_FAST32_MAX__ - 1)
+#define INT_FAST32_MAX (__INT_FAST32_MAX__)
+#define UINT_FAST32_MAX (__UINT_FAST32_MAX__)
+# 310 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INT_FAST64_MIN (-__INT_FAST64_MAX__ - 1)
+#define INT_FAST64_MAX (__INT_FAST64_MAX__)
+#define UINT_FAST64_MAX (__UINT_FAST64_MAX__)
+# 326 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INTMAX_MAX (__INTMAX_MAX__)
+#define INTMAX_MIN (-INTMAX_MAX - 1)
+
+
+
+
+
+
+
+#define UINTMAX_MAX (__UINTMAX_MAX__)
+
+
+
+
+
+
+
+#define SIZE_MAX (__SIZE_MAX__)
+
+
+
+
+
+#define SIG_ATOMIC_MIN (-__STDINT_EXP(INT_MAX) - 1)
+#define SIG_ATOMIC_MAX (__STDINT_EXP(INT_MAX))
+
+
+
+#define PTRDIFF_MAX (__PTRDIFF_MAX__)
+
+
+
+#define PTRDIFF_MIN (-PTRDIFF_MAX - 1)
+
+
+
+
+#define WCHAR_MIN (__WCHAR_MIN__)
+# 374 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define WCHAR_MAX (__WCHAR_MAX__)
+# 384 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define WINT_MAX (__WINT_MAX__)
+
+
+
+
+#define WINT_MIN (__WINT_MIN__)
+
+
+
+
+
+
+#define INT8_C(x) __INT8_C(x)
+#define UINT8_C(x) __UINT8_C(x)
+# 408 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INT16_C(x) __INT16_C(x)
+#define UINT16_C(x) __UINT16_C(x)
+# 420 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INT32_C(x) __INT32_C(x)
+#define UINT32_C(x) __UINT32_C(x)
+# 433 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INT64_C(x) __INT64_C(x)
+#define UINT64_C(x) __UINT64_C(x)
+# 449 "/usr/local/riscv-unknown-elf/riscv-unknown-elf/include/stdint.h" 3 4
+#define INTMAX_C(x) __INTMAX_C(x)
+#define UINTMAX_C(x) __UINTMAX_C(x)
+# 10 "/usr/local/riscv-unknown-elf/lib/gcc/riscv-unknown-elf/14.2.0/include/stdint.h" 2 3 4
+
+
+
+#define _GCC_WRAP_STDINT_H 
+# 2 "./c-example/example.c" 2
+
+
+# 3 "./c-example/example.c"
+void sum(int32_t a, int32_t b) {
+  int32_t c = a + b;
+}
+
+
+
+# 1 "./c-example/polkavm_guest.h" 1
+
+#define POLKAVM_GUEST_H_ 
+
+#define POLKAVM_JOIN_IMPL(X,Y) X ##Y
+#define POLKAVM_JOIN(X,Y) POLKAVM_JOIN_IMPL(X, Y)
+#define POLKAVM_UNIQUE(X) POLKAVM_JOIN(X, __COUNTER__)
+
+#define POLKAVM_REGS_FOR_TY_void 0
+#define POLKAVM_REGS_FOR_TY_i32 1
+
+#define POLKAVM_REGS_FOR_TY_i64 1
+
+
+
+
+#define POLKAVM_REGS_FOR_TY_int8_t POLKAVM_REGS_FOR_TY_i32
+#define POLKAVM_REGS_FOR_TY_uint8_t POLKAVM_REGS_FOR_TY_i32
+#define POLKAVM_REGS_FOR_TY_int16_t POLKAVM_REGS_FOR_TY_i32
+#define POLKAVM_REGS_FOR_TY_uint16_t POLKAVM_REGS_FOR_TY_i32
+#define POLKAVM_REGS_FOR_TY_int32_t POLKAVM_REGS_FOR_TY_i32
+#define POLKAVM_REGS_FOR_TY_uint32_t POLKAVM_REGS_FOR_TY_i32
+#define POLKAVM_REGS_FOR_TY_int64_t POLKAVM_REGS_FOR_TY_i64
+#define POLKAVM_REGS_FOR_TY_uint64_t POLKAVM_REGS_FOR_TY_i64
+#define POLKAVM_REGS_FOR_TY_int POLKAVM_REGS_FOR_TY_i32
+
+
+#define POLKAVM_REGS_FOR_TY_size_t POLKAVM_REGS_FOR_TY_i64
+#define POLKAVM_REGS_FOR_TY_long POLKAVM_REGS_FOR_TY_i64
+
+
+
+
+
+#define POLKAVM_COUNT_ARGS(...) POLKAVM_COUNT_ARGS_IMPL(0, ## __VA_ARGS__, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0)
+#define POLKAVM_COUNT_ARGS_IMPL(_0,_1_,_2_,_3_,_4_,_5_,_6_,_7_,_8_,_9_,_10_,_11_,_12_,_13_,_14_,_15_,_16_,_17_,_18_,_19_,_20_,_21_,_22_,_23_,_24_,_25_,_26_,_27_,_28_,_29_,_30_,_31_,_32_,count,...) count
+
+#define POLKAVM_REGS_FOR_TY(X) POLKAVM_JOIN(POLKAVM_REGS_FOR_TY_, X)
+
+#define POLKAVM_ARG_ASM_4_0() 
+#define POLKAVM_ARG_ASM_4_1(A) ".byte %[arg_1]\n"
+
+#define POLKAVM_ARG_ASM_4_2(A,B) ".byte %[arg_1]\n" ".byte %[arg_2]\n"
+
+
+#define POLKAVM_ARG_ASM_4_3(A,B,C) ".byte %[arg_1]\n" ".byte %[arg_2]\n" ".byte %[arg_3]\n"
+
+
+
+#define POLKAVM_ARG_ASM_4_4(A,B,C,D) ".byte %[arg_1]\n" ".byte %[arg_2]\n" ".byte %[arg_3]\n" ".byte %[arg_4]\n"
+
+
+
+
+#define POLKAVM_ARG_ASM_4_5(A,B,C,D,E) ".byte %[arg_1]\n" ".byte %[arg_2]\n" ".byte %[arg_3]\n" ".byte %[arg_4]\n" ".byte %[arg_5]\n"
+
+
+
+
+
+#define POLKAVM_ARG_ASM_4_6(A,B,C,D,E,F) ".byte %[arg_1]\n" ".byte %[arg_2]\n" ".byte %[arg_3]\n" ".byte %[arg_4]\n" ".byte %[arg_5]\n" ".byte %[arg_6]\n"
+
+
+
+
+
+
+
+#define POLKAVM_ARG_ASM_3(N,...) POLKAVM_ARG_ASM_4_ ## N(__VA_ARGS__)
+#define POLKAVM_ARG_ASM_2(N,...) POLKAVM_ARG_ASM_3(N, ## __VA_ARGS__)
+#define POLKAVM_ARG_ASM(...) POLKAVM_ARG_ASM_2(POLKAVM_COUNT_ARGS(__VA_ARGS__), ## __VA_ARGS__)
+
+#define POLKAVM_COUNT_REGS_4_0() 0
+
+#define POLKAVM_COUNT_REGS_4_1(A) POLKAVM_REGS_FOR_TY(A)
+
+#define POLKAVM_COUNT_REGS_4_2(A,B) POLKAVM_REGS_FOR_TY(A) + POLKAVM_REGS_FOR_TY(B)
+
+#define POLKAVM_COUNT_REGS_4_3(A,B,C) POLKAVM_REGS_FOR_TY(A) + POLKAVM_REGS_FOR_TY(B) + POLKAVM_REGS_FOR_TY(C)
+
+#define POLKAVM_COUNT_REGS_4_4(A,B,C,D) POLKAVM_REGS_FOR_TY(A) + POLKAVM_REGS_FOR_TY(B) + POLKAVM_REGS_FOR_TY(C) + POLKAVM_REGS_FOR_TY(D)
+
+#define POLKAVM_COUNT_REGS_4_5(A,B,C,D,E) POLKAVM_REGS_FOR_TY(A) + POLKAVM_REGS_FOR_TY(B) + POLKAVM_REGS_FOR_TY(C) + POLKAVM_REGS_FOR_TY(D) + POLKAVM_REGS_FOR_TY(E)
+
+#define POLKAVM_COUNT_REGS_4_6(A,B,C,D,E,F) POLKAVM_REGS_FOR_TY(A) + POLKAVM_REGS_FOR_TY(B) + POLKAVM_REGS_FOR_TY(C) + POLKAVM_REGS_FOR_TY(D) + POLKAVM_REGS_FOR_TY(E) + POLKAVM_REGS_FOR_TY(F)
+
+
+#define POLKAVM_COUNT_REGS_3(N,...) POLKAVM_COUNT_REGS_4_ ## N(__VA_ARGS__)
+#define POLKAVM_COUNT_REGS_2(N,...) POLKAVM_COUNT_REGS_3(N, ## __VA_ARGS__)
+#define POLKAVM_COUNT_REGS(...) POLKAVM_COUNT_REGS_2(POLKAVM_COUNT_ARGS(__VA_ARGS__), ## __VA_ARGS__)
+
+#define POLKAVM_IMPORT_ARGS_IMPL_4_0() 
+#define POLKAVM_IMPORT_ARGS_IMPL_4_1(A0) A0 a0
+#define POLKAVM_IMPORT_ARGS_IMPL_4_2(A0,A1) A0 a0, A1 a1
+#define POLKAVM_IMPORT_ARGS_IMPL_4_3(A0,A1,A2) A0 a0, A1 a1, A2 a2
+#define POLKAVM_IMPORT_ARGS_IMPL_4_4(A0,A1,A2,A3) A0 a0, A1 a1, A2 a2, A3 a3
+#define POLKAVM_IMPORT_ARGS_IMPL_4_5(A0,A1,A2,A3,A4) A0 a0, A1 a1, A2 a2, A3 a3, A4 a4
+#define POLKAVM_IMPORT_ARGS_IMPL_4_6(A0,A1,A2,A3,A4,A5) A0 a0, A1 a1, A2 a2, A3 a3, A4 a4, A5 a5
+
+#define POLKAVM_IMPORT_ARGS_IMPL_3(N,...) POLKAVM_IMPORT_ARGS_IMPL_4_ ## N(__VA_ARGS__)
+#define POLKAVM_IMPORT_ARGS_IMPL_2(N,...) POLKAVM_IMPORT_ARGS_IMPL_3(N, ## __VA_ARGS__)
+#define POLKAVM_IMPORT_ARGS_IMPL(...) POLKAVM_IMPORT_ARGS_IMPL_2(POLKAVM_COUNT_ARGS(__VA_ARGS__), ## __VA_ARGS__)
+
+struct PolkaVM_Metadata {
+    unsigned char version;
+    unsigned int flags;
+    unsigned int symbol_length;
+    const char * symbol;
+    unsigned char input_regs;
+    unsigned char output_regs;
+} __attribute__ ((packed));
+
+
+#define POLKAVM_EXPORT_DEF() ".quad %[metadata]\n" ".quad %[function]\n"
+# 123 "./c-example/polkavm_guest.h"
+#define POLKAVM_IMPORT_DEF() ".word 0x0000000b\n" ".quad %[metadata]\n"
+# 132 "./c-example/polkavm_guest.h"
+#define POLKAVM_EXPORT(arg_return_ty,fn_name,...) static struct PolkaVM_Metadata POLKAVM_JOIN(fn_name, __EXPORT_METADATA) __attribute__ ((section(".polkavm_metadata"))) = { 1, 0, sizeof(#fn_name) - 1, #fn_name, POLKAVM_COUNT_REGS(__VA_ARGS__), POLKAVM_COUNT_REGS(arg_return_ty) }; static void __attribute__ ((naked, used)) POLKAVM_UNIQUE(plokavm_export_dummy)() { __asm__( ".pushsection .polkavm_exports,\"Ra\",@note\n" ".byte 1\n" POLKAVM_EXPORT_DEF() ".popsection\n" : : [metadata] "i" (&POLKAVM_JOIN(fn_name, __EXPORT_METADATA)), [function] "i" (fn_name) : "memory" ); }
+# 150 "./c-example/polkavm_guest.h"
+#define POLKAVM_IMPORT(arg_return_ty,fn_name,...) static struct PolkaVM_Metadata POLKAVM_JOIN(fn_name, __IMPORT_METADATA) __attribute__ ((section(".polkavm_metadata"))) = { 1, 0, sizeof(#fn_name) - 1, #fn_name, POLKAVM_COUNT_REGS(__VA_ARGS__), POLKAVM_COUNT_REGS(arg_return_ty) }; static arg_return_ty __attribute__ ((naked)) fn_name(POLKAVM_IMPORT_ARGS_IMPL(__VA_ARGS__)) { __asm__( POLKAVM_IMPORT_DEF() "ret\n" : : [metadata] "i" (&POLKAVM_JOIN(fn_name, __IMPORT_METADATA)) : "memory" ); }
+# 165 "./c-example/polkavm_guest.h"
+#define POLKAVM_MIN_STACK_SIZE(size) static void __attribute__ ((naked, used)) POLKAVM_UNIQUE(polkavm_stack_size)() { __asm__( ".pushsection .polkavm_min_stack_size,\"\",@progbits\n" ".word %[value]\n" ".popsection\n" : : [value] "i" (size) : ); }
+# 178 "./c-example/polkavm_guest.h"
+#define POLKAVM_TRAP() { __asm__("unimp\n" :::); __builtin_unreachable(); }
+# 10 "./c-example/example.c" 2
+
+static struct PolkaVM_Metadata sum__EXPORT_METADATA __attribute__ ((section(".polkavm_metadata"))) = { 1, 0, sizeof("sum") - 1, "sum", 1 + 1, 0 }; static void __attribute__ ((naked, used)) plokavm_export_dummy0() { __asm__( ".pushsection .polkavm_exports,\"Ra\",@note\n" ".byte 1\n" ".quad %[metadata]\n" ".quad %[function]\n" ".popsection\n" : : [metadata] "i" (&sum__EXPORT_METADATA), [function] "i" (sum) : "memory" ); };
